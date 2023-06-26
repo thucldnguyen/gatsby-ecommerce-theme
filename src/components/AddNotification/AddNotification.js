@@ -9,7 +9,7 @@ import Icon from '../Icons/Icon';
 import * as styles from './AddNotification.module.css';
 
 const AddNotification = (props) => {
-  
+  const sampleCartItem = "";
 
   const ctxAddItemNotification = useContext(AddItemNotificationContext);
   const showNotif = ctxAddItemNotification.state?.open;

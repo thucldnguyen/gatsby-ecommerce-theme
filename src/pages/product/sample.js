@@ -50,7 +50,7 @@ const ProductPage = (props) => {
               <span className={styles.vendor}> by {sampleProduct.vendor}</span>
 
               <div className={styles.priceContainer}>
-                <CurrencyFormatter appendZero amount={sampleProduct.price} />
+                <CurrencyFormatter amount={sampleProduct.price} />
               </div>
 
               
@@ -99,6 +99,7 @@ const ProductPage = (props) => {
                 <span>Product code: {sampleProduct.productCode}</span>
               </div>
 
+              { /* 
               <div className={styles.informationContainer}>
                 <Accordion
                   type={'plus'}
@@ -124,6 +125,7 @@ const ProductPage = (props) => {
                   </p>
                 </Accordion>
               </div>
+              */ }
             </div>
           </div>
           { /* 
@@ -140,7 +142,7 @@ const ProductPage = (props) => {
 
           <br></br>
 
-          <img width='500' src="/products/logo.jpg"></img>
+          <img width='350' src="/products/logo.jpg"></img>
 
           <p>Thông tin sản phẩm </p> <br/>
 
@@ -172,7 +174,7 @@ const ProductPage = (props) => {
           <div>Nhiều nơi trên thế giới sau này cũng bắt đầu trồng hạt mắc ca như Brazil, Nam Phi, Kenya... Những năm gần đây, ở Việt Nam cũng trồng được hạt mắc ca nhưng ít được ưa chuộng vì chất lượng không được tốt. Do điều kiện thổ nhưỡng và khí hậu nên hạt mắc ca nội địa thường bị sâu, lép hạt nên mọi người vẫn thường ưa chuộng hạt mắc ca xuất xứ từ Úc hoặc Nam Phi hơn. Hình ảnh bên dưới là hạt mắc ca được thu hoạch tại cơ sở Rio Macca Lâm Hà</div>
           <p>&nbsp;</p>
 
-          <img width='500' src="/products/macca5.jpg"></img>
+          <img width='350' src="/products/macca5.jpg"></img>
           <p>&nbsp;</p>
 
           <div><strong>Thành phần dinh dưỡng của hạt mắc ca</strong></div>
@@ -200,7 +202,7 @@ const ProductPage = (props) => {
           <p>&nbsp;</p>
           <div>Bạn nên bảo quản hạt mắc ca ở nơi khô ráo, thoáng mát và tránh ánh sáng mặt trời trực tiếp. Hạt chưa xé bịch thường có thể để được khoảng 6 tháng kể từ ngày sản xuất. Sau khi đã xé bịch, bạn nên ăn hết hạt trong vòng 3 &ndash; 5 ngày hoặc cho vào lọ kín để tủ lạnh ăn trong vòng 2 tháng. Hình bên dưới là dầu macca do Rio Macca Lâm Hà sản xuất.</div>
 
-          <img width='500' src="/products/macca6.jpg"></img>
+          <img width='350' src="/products/macca6.jpg"></img>
           <p>&nbsp;</p>
 
           <div><strong>TÁC DỤNG CỦA HẠT MẮC CA </strong></div>

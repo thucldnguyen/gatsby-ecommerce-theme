@@ -3,10 +3,10 @@
         "productCode": "MJUM8066-GYDZ",
         "name": "Hạt macadamia sấy cao cấp",
         "vendor": "Rio Macca",
-        "price": 120,
+        "price": "120000",
         "alt": "hạt macadamia sấy cao cấp",
         "image": "/products/macca1.jpg",
-        "sizeOptions": ["xs", "s", "m", "l", "xl"],
+        "sizeOptions": ["s", "m", "l"],
         "wishlist": true,
         "tags": ["sample"],
         "gallery": [
