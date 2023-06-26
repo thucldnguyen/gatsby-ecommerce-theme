@@ -159,6 +159,8 @@ const ProductPage = (props) => {
             </ul> 
           </p>
 
+          <img width='350' src="/products/map.png"></img>
+
           <div>Hạt mắc ca có giá trị dinh dưỡng rất lớn trong thế giới các loại hạt, trong đó chứa nhiều đạm thực vật, omega 3, omega 6, omega 9 và có hơn 20 loại vitamin cùng khoáng chất cần thiết cho cơ thể. </div>
           <p>&nbsp;</p>
 
