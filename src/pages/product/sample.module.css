@@ -2,6 +2,11 @@
     margin-top: 16px;
 }
 
+ul {
+    list-style: inside;
+    list-style-type: circle;
+}
+
 .content {
     display: flex;
 }

@@ -29,8 +29,8 @@ const IndexPage = () => {
       {/* Hero Container */}
       <Hero
         maxWidth={'500px'}
-        image={'/rio_banner.jpg'}
-        title={'Nông sản sạch Rio Farm'}
+        image={'/rio_banner2.jpg'}
+        title={'Nông sản sạch Rio Macca'}
         subtitle={'Macadamia nuts and oil'}
         ctaText={'Mua Ngay'}
         ctaAction={goToShop}
@@ -39,7 +39,7 @@ const IndexPage = () => {
       {/* Message Container */}
       <div className={styles.messageContainer}>
         <p>
-        <span className={styles.gold}>Rio Farm</span> Lâm Hà - Lâm Đồng
+        <span className={styles.gold}>Rio Macca</span> Lâm Hà - Lâm Đồng
         </p>
         
       </div>
@@ -97,9 +97,9 @@ const IndexPage = () => {
       {/* Quote */}
       <Quote
         bgColor={'var(--standard-light-grey)'}
-        title={'about Rio Farm'}
+        title={'about Rio Macca'}
         quote={
-          '“Rio Farm là doanh nghiệp cung cấp hạt macadamia sấy hàng đầu Lâm Hà - Lâm Đồng.”'
+          '“Rio Macca là doanh nghiệp cung cấp hạt macadamia sấy hàng đầu Lâm Hà - Lâm Đồng.”'
         }
       />
 
@@ -137,9 +137,9 @@ const IndexPage = () => {
           <img src={`/social/socialMedia3.png`} alt={'social media 3'} />
           <img src={`/social/socialMedia4.png`} alt={'social media 4'} />
         </div>
-      </div> */}
+      </div> 
 
-      <AttributeGrid />
+      <AttributeGrid />*/}
     </Layout> 
   );
 };
