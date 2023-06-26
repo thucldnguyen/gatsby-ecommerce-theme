@@ -12,13 +12,11 @@ import * as styles from './QuickView.module.css';
 
 const QuickView = (props) => {
   const { close, buttonTitle = 'Add to Bag' } = props;
-  const sampleProduct = generateMockProductData(1, 'macadamia')[0];
+  const sampleProduct = generateMockProductData(1, 'sample')[0];
 
   const ctxAddItemNotification = useContext(AddItemNotificationContext);
   const showNotification = ctxAddItemNotification.showNotification;
-  const [activeSwatch, setActiveSwatch] = useState(
-    sampleProduct.colorOptions[0]
-  );
+  
   const [activeSize, setActiveSize] = useState(sampleProduct.sizeOptions[0]);
 
   const handleAddToBag = () => {
@@ -42,13 +40,7 @@ const QuickView = (props) => {
           </div>
         </div>
 
-        <div className={styles.sectionContainer}>
-          <SwatchList
-            swatchList={sampleProduct.colorOptions}
-            activeSwatch={activeSwatch}
-            setActiveSwatch={setActiveSwatch}
-          />
-        </div>
+        
 
         <div className={styles.sectionContainer}>
           <SizeList
