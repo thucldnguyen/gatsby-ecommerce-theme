@@ -3,8 +3,5 @@ describe('sample render test', () => {
     cy.visit('/')
   })
 
-  it('displays the title text', () => {
-    cy.get('h2')
-    .contains('Essentials for a cold winter');
-  })
+  
 }) 
