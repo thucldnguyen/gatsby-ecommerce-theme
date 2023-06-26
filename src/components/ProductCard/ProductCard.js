@@ -19,7 +19,7 @@ const ProductCard = (props) => {
   } = props;
 
   const handleRouteToProduct = () => {
-    navigate('/product/macadamia');
+    navigate('/product/sample');
   };
 
   const handleQuickView = (e) => {

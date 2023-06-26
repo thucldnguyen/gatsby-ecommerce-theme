@@ -21,7 +21,7 @@ const IndexPage = () => {
   const blogData = generateMockBlogData(3);
 
   const goToShop = () => {
-    navigate('/product/macadamia');
+    navigate('/product/sample');
   };
 
   return (
