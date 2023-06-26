@@ -118,6 +118,7 @@ const Header = (prop) => {
             <Icon symbol={`${mobileMenu === true ? 'cross' : 'burger'}`}></Icon>
           </div>
           <Brand />
+          {/* 
           <div className={styles.actionContainers}>
             <button
               aria-label="Search"
@@ -159,6 +160,7 @@ const Header = (prop) => {
               <AddNotification openCart={() => setShowMiniCart(true)} />
             </div>
           </div>
+          */}
         </div>
 
         {/* search container */}

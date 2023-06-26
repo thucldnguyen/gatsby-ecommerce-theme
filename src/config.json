@@ -2,7 +2,7 @@
   "currencyList": [
     { "value": "AUS", "label": "Australia (AUS $)" },
     { "value": "CAD", "label": "Canada (CAD $)" },
-    { "value": "USD", "label": "United States (US $)" },
+    { "value": "VND", "label": "VND (VND)" },
     { "value": "EUR", "label": "Germany (EUR €)" },
     { "value": "HKD", "label": "Hong Kong (HKD $)" }
   ],
@@ -12,10 +12,10 @@
     { "value": "mandarin", "label": "普通话" }
   ],
   "social": {
-    "facebook": "https://www.facebook.com/MatterDesign/",
-    "instagram": "https://www.instagram.com/p/CVwMlChIWmW",
-    "twitter": "https://twitter.com/hellomatter",
-    "youtube": "https://www.youtube.com/channel/UCEOu94Haa--QmltsSawflXg"
+    "facebook": "https://www.facebook.com/MaccaRIO2019",
+    "instagram": "",
+    "twitter": "",
+    "youtube": ""
   },
   "paymentOptions": {
     "visa": true,

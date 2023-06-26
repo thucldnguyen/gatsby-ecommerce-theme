@@ -21,7 +21,7 @@ const IndexPage = () => {
   const blogData = generateMockBlogData(3);
 
   const goToShop = () => {
-    navigate('/shop');
+    navigate('/product/macadamia');
   };
 
   return (
@@ -29,34 +29,33 @@ const IndexPage = () => {
       {/* Hero Container */}
       <Hero
         maxWidth={'500px'}
-        image={'/banner1.png'}
-        title={'Essentials for a cold winter'}
-        subtitle={'Discover Autumn Winter 2021'}
-        ctaText={'shop now'}
+        image={'/rio_banner.jpg'}
+        title={'Nông sản sạch Rio Farm'}
+        subtitle={'Macadamia nuts and oil'}
+        ctaText={'Mua Ngay'}
         ctaAction={goToShop}
       />
 
       {/* Message Container */}
       <div className={styles.messageContainer}>
         <p>
-          This is a demonstration of the Sydney theme for verse by{' '}
-          <span className={styles.gold}>matter design.</span>
+        <span className={styles.gold}>Rio Farm</span> Lâm Hà - Lâm Đồng
         </p>
-        <p>
-          wear by <span className={styles.gold}>sunspel</span> and{' '}
-          <span className={styles.gold}>scotch&soda</span>
-        </p>
+        
       </div>
 
-      {/* Collection Container */}
+      
+
+      {/* Collection Container 
       <div className={styles.collectionContainer}>
         <Container size={'large'}>
           <Title name={'New Collection'} />
           <ProductCollectionGrid />
         </Container>
-      </div>
+      </div> */}
 
-      {/* New Arrivals */}
+
+      {/* New Arrivals 
       <div className={styles.newArrivalsContainer}>
         <Container>
           <Title name={'New Arrivals'} link={'/shop'} textLink={'view all'} />
@@ -68,9 +67,9 @@ const IndexPage = () => {
             data={newArrivals}
           />
         </Container>
-      </div>
+      </div> */}
 
-      {/* Highlight  */}
+      {/* Highlight  
       <div className={styles.highlightContainer}>
         <Container size={'large'} fullMobile>
           <Highlight
@@ -84,35 +83,35 @@ const IndexPage = () => {
             link={'/shop'}
           />
         </Container>
-      </div>
+      </div> */}
 
-      {/* Promotion */}
+      {/* Promotion 
       <div className={styles.promotionContainer}>
         <Hero image={'/banner2.png'} title={`-50% off \n All Essentials`} />
         <div className={styles.linkContainers}>
           <Link to={'/shop'}>WOMAN</Link>
           <Link to={'/shop'}>MAN</Link>
         </div>
-      </div>
+      </div> */}
 
       {/* Quote */}
       <Quote
         bgColor={'var(--standard-light-grey)'}
-        title={'about Sydney'}
+        title={'about Rio Farm'}
         quote={
-          '“We believe in two things: the pursuit of quality in everything we do, and looking after one another. Everything else should take care of itself.”'
+          '“Rio Farm là doanh nghiệp cung cấp hạt macadamia sấy hàng đầu Lâm Hà - Lâm Đồng.”'
         }
       />
 
-      {/* Blog Grid */}
+      {/* Blog Grid 
       <div className={styles.blogsContainer}>
         <Container size={'large'}>
           <Title name={'Journal'} subtitle={'Notes on life and style'} />
           <BlogPreviewGrid data={blogData} />
         </Container>
-      </div>
+      </div> */}
 
-      {/* Promotion */}
+      {/* Promotion 
       <div className={styles.sustainableContainer}>
         <Hero
           image={'/banner3.png'}
@@ -124,9 +123,9 @@ const IndexPage = () => {
           maxWidth={'660px'}
           ctaStyle={styles.ctaCustomButton}
         />
-      </div>
+      </div> */}
 
-      {/* Social Media */}
+      {/* Social Media 
       <div className={styles.socialContainer}>
         <Title
           name={'Styled by You'}
@@ -138,9 +137,10 @@ const IndexPage = () => {
           <img src={`/social/socialMedia3.png`} alt={'social media 3'} />
           <img src={`/social/socialMedia4.png`} alt={'social media 4'} />
         </div>
-      </div>
+      </div> */}
+
       <AttributeGrid />
-    </Layout>
+    </Layout> 
   );
 };
 
