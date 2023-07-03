@@ -27,7 +27,7 @@ const Header = (prop) => {
   const [search, setSearch] = useState('');
 
   const searchRef = createRef();
-  const bannerMessage = 'Free shipping worldwide';
+  const bannerMessage = '';
   const searchSuggestions = [
     'Oversize sweaters',
     'Lama Pajamas',
@@ -97,9 +97,8 @@ const Header = (prop) => {
                 <Link
                   key={navObject.menuLink}
                   onMouseEnter={() => handleHover(navObject)}
-                  className={`${styles.navLink} ${
-                    activeMenu === navObject.menuLabel ? styles.activeLink : ''
-                  }`}
+                  className={`${styles.navLink} ${activeMenu === navObject.menuLabel ? styles.activeLink : ''
+                    }`}
                   to={navObject.menuLink}
                 >
                   {navObject.menuLabel}
@@ -118,9 +117,9 @@ const Header = (prop) => {
             <Icon symbol={`${mobileMenu === true ? 'cross' : 'burger'}`}></Icon>
           </div>
           <Brand />
-          {/* 
+
           <div className={styles.actionContainers}>
-            <button
+            {/* <button
               aria-label="Search"
               className={`${styles.iconButton} ${styles.iconContainer}`}
               onClick={() => {
@@ -142,13 +141,13 @@ const Header = (prop) => {
               className={`${styles.iconContainer} ${styles.hideOnMobile}`}
             >
               <Icon symbol={'user'}></Icon>
-            </Link>
+            </Link> */}
             <button
               aria-label="Cart"
               className={`${styles.iconButton} ${styles.iconContainer} ${styles.bagIconContainer}`}
               onClick={() => {
-                setShowMiniCart(true);
-                setMobileMenu(false);
+                // setShowMiniCart(true);
+                // setMobileMenu(false);
               }}
             >
               <Icon symbol={'bag'}></Icon>
@@ -160,14 +159,12 @@ const Header = (prop) => {
               <AddNotification openCart={() => setShowMiniCart(true)} />
             </div>
           </div>
-          */}
         </div>
 
         {/* search container */}
         <div
-          className={`${styles.searchContainer} ${
-            showSearch === true ? styles.show : styles.hide
-          }`}
+          className={`${styles.searchContainer} ${showSearch === true ? styles.show : styles.hide
+            }`}
         >
           <h4>What are you looking for?</h4>
           <form className={styles.searchForm} onSubmit={(e) => handleSearch(e)}>
@@ -212,9 +209,8 @@ const Header = (prop) => {
         role={'presentation'}
         onMouseLeave={() => setShowMenu(false)}
         onMouseEnter={() => setShowMenu(true)}
-        className={`${styles.menuContainer} ${
-          showMenu === true ? styles.show : ''
-        }`}
+        className={`${styles.menuContainer} ${showMenu === true ? styles.show : ''
+          }`}
       >
         <Container size={'large'} spacing={'min'}>
           <ExpandedMenu menu={menu} />

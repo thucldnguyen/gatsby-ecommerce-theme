@@ -39,146 +39,75 @@ const Footer = (prop) => {
     );
   };
 
+  const renderMap = () => {
+    return `<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1932.4459335981273!2d108.18225928784602!3d11.709429288836619!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31715b38b6a22255%3A0x76c3ac0cc5c473bc!2zVWJuZCB4w6MgxJBhbiBQaMaw4bujbmcgLSBMw6JtIEjDoA!5e1!3m2!1sen!2s!4v1688369249170!5m2!1sen!2s" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`;
+  };
+
   return (
     <div className={styles.root}>
-      <Container size={'large'} spacing={'min'}>
-        <div className={styles.content}>
-          <div className={styles.contentTop}>
-            {Config.footerLinks.map((linkCollection, indexLink) => {
-              return (
-                <div className={styles.footerLinkContainer} key={indexLink}>
-                  {/* for web version */}
-                  <div className={styles.footerLinks}>
-                    <span className={styles.linkTitle}>
-                      {linkCollection.subTitle}
-                    </span>
-                    {renderLinks(linkCollection)}
-                  </div>
-                  {/* for mobile version */}
-                  <div className={styles.mobileFooterLinks}>
-                    <Accordion
-                      customStyle={styles}
-                      type={'add'}
-                      title={linkCollection.subTitle}
-                    >
-                      {renderLinks(linkCollection)}
-                    </Accordion>
-                  </div>
-                </div>
-              );
-            })}
-            <div className={styles.newsLetter}>
-              <div className={styles.newsLetterContent}>
-                <span className={styles.linkTitle}>Newsletter</span>
-                <p className={styles.promoMessage}>
-                  Get 15% off your first purchase! Plus, be the first to know
-                  about sales, new product launches and exclusive offers!
-                </p>
-                <form
-                  className={styles.newsLetterForm}
-                  onSubmit={(e) => subscribeHandler(e)}
-                >
-                  <FormInputField
-                    icon={'arrow'}
-                    id={'newsLetterInput'}
-                    value={email}
-                    placeholder={'Email'}
-                    handleChange={(_, e) => setEmail(e)}
-                  />
-                </form>
-                <div className={styles.socialContainer}>
-                  {Config.social.youtube && (
-                    <div
-                      onClick={() => handleSocialClick('youtube')}
-                      role={'presentation'}
-                      className={styles.socialIconContainer}
-                    >
-                      <Icon symbol={'youtube'}></Icon>
-                    </div>
-                  )}
-
-                  {Config.social.instagram && (
-                    <div
-                      onClick={() => handleSocialClick('instagram')}
-                      role={'presentation'}
-                      className={styles.socialIconContainer}
-                    >
-                      <Icon symbol={'instagram'}></Icon>
-                    </div>
-                  )}
-
-                  {Config.social.facebook && (
-                    <div
-                      onClick={() => handleSocialClick('facebook')}
-                      role={'presentation'}
-                      className={styles.socialIconContainer}
-                    >
-                      <Icon symbol={'facebook'}></Icon>
-                    </div>
-                  )}
-
-                  {Config.social.twitter && (
-                    <div
-                      onClick={() => handleSocialClick('twitter')}
-                      role={'presentation'}
-                      className={styles.socialIconContainer}
-                    >
-                      <Icon symbol={'twitter'}></Icon>
-                    </div>
-                  )}
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </Container>
       <div className={styles.contentBottomContainer}>
         <Container size={'large'} spacing={'min'}>
           <div className={styles.contentBottom}>
-            <div className={styles.settings}>
-              <Dropdown
-                label={'Country/Region'}
-                optionList={Config.currencyList}
-              />
-              <Dropdown label={'Language'} optionList={Config.languageList} />
+            <div className={styles.aboutUs}>
+              <h6>Liên hệ:</h6>
+              <ul style={{ listStyleType: 'circle' }}>
+                <li>Hộ kinh doanh: RIO MACCA</li>
+                <li>
+                  Địa chỉ: Thôn Đoàn Kết, xã Đan Phượng, huyện Lâm Hà, tỉnh Lâm
+                  Đồng
+                </li>
+                <li>Số điện thoại: 0977742047</li>
+                <li>Người đại diện: Nguyễn Thị Ánh</li>
+                <li>Quy mô: Hộ gia đình</li>
+                <li>Năm thành lập: 2021</li>
+              </ul>
             </div>
-            <div className={styles.copyrightContainer}>
-              <div className={styles.creditCardContainer}>
-                {Config.paymentOptions.amex && (
-                  <img
-                    className={styles.amexSize}
-                    src={'/amex.png'}
-                    alt={'amex'}
-                  ></img>
-                )}
-                {Config.paymentOptions.mastercard && (
-                  <img
-                    className={styles.masterSize}
-                    src={'/master.png'}
-                    alt={'mastercard'}
-                  ></img>
-                )}
-                {Config.paymentOptions.visa && (
-                  <img
-                    className={styles.visaSize}
-                    src={'/visa.png'}
-                    alt={'visa'}
-                  ></img>
-                )}
+            <div
+              style={{
+                display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'center',
+              }}
+            >
+              <div className={styles.socialContainer}>
+                <div
+                  onClick={() => handleSocialClick('facebook')}
+                  role={'presentation'}
+                  className={styles.socialIconContainer}
+                >
+                  <Icon symbol={'facebook'}></Icon>
+                </div>
+                <div
+                  onClick={() => handleSocialClick('email')}
+                  role={'presentation'}
+                  className={styles.socialIconContainer}
+                >
+                  <Icon symbol={'email'}></Icon>
+                </div>
+                <div
+                  onClick={() => handleSocialClick('phone')}
+                  role={'presentation'}
+                  className={styles.socialIconContainer}
+                >
+                  <Icon symbol={'phone'}></Icon>
+                </div>
               </div>
-              <span>
-                {new Date().getFullYear()} (c) . Built by{' '}
-                <Button target={true} href="https://www.matterdesign.com.au/">
-                  Matter.
-                </Button>{' '}
-                Powered by{' '}
-                <Button target={true} href="https://jamm.matter.design/">
-                  JAMM.™
-                </Button>
-              </span>
+              <div dangerouslySetInnerHTML={{ __html: renderMap() }}></div>
             </div>
           </div>
         </Container>
+      </div>
+      <div className={styles.copyrightContainer}>
+        <span>
+          {new Date().getFullYear()} (c) . Built by{' '}
+          <Button target={true} href="https://www.matterdesign.com.au/">
+            Matter.
+          </Button>{' '}
+          Powered by{' '}
+          <Button target={true} href="https://jamm.matter.design/">
+            JAMM.™
+          </Button>
+        </span>
       </div>
     </div>
   );

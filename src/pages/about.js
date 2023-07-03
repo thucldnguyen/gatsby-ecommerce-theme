@@ -27,7 +27,7 @@ const AboutPage = (props) => {
         <Hero
           maxWidth={'900px'}
           image={'/coso1.jpeg'}
-          title={`Rio Farm \n Thương hiệu uy tín từ 2021`}
+        // title={`Rio Farm \n Thương hiệu uy tín từ 2021`}
         />
 
         <div className={styles.navContainer}>
@@ -48,12 +48,13 @@ const AboutPage = (props) => {
         <Container size={'large'} spacing={'min'}>
           <div className={styles.detailContainer} ref={historyRef}>
             <p>
-              Được thành lập từ 2021, Rio Macca hay Rio Farm là thương hiệu nông sản sạch hàng đầu Lâm Hà, Lâm Đồng
-              Chúng tôi luôn tự hào đem đến cho người tiêu dùng Việt Nam những sản phẩm nông sản chất lượng cao và thái độ phục vụ chu đáo.
+              Được thành lập từ 2021, Rio Macca hay Rio Farm là thương hiệu nông
+              sản sạch hàng đầu Lâm Hà, Lâm Đồng Chúng tôi luôn tự hào đem đến
+              cho người tiêu dùng Việt Nam những sản phẩm nông sản chất lượng
+              cao và thái độ phục vụ chu đáo.
             </p>
             <br />
             <br />
-            
           </div>
         </Container>
 
@@ -66,8 +67,10 @@ const AboutPage = (props) => {
             <h3>Giá trị cốt lõi</h3>
             <div ref={valuesRef}>
               <p>
-                Nắm bắt được nhu cầu thị hiếu của người tiêu dùng Việt Nam, Rio Macca được thành lập
-                để đem đến cho người tiêu dùng Việt Nam những mặt hàng nông sản chất lượng cao với nguồn gốc xuất xứ rõ ràng.
+                Nắm bắt được nhu cầu thị hiếu của người tiêu dùng Việt Nam, Rio
+                Macca được thành lập để đem đến cho người tiêu dùng Việt Nam
+                những mặt hàng nông sản chất lượng cao với nguồn gốc xuất xứ rõ
+                ràng.
               </p>
               <ol>
                 <li>Minh bạch nguồn gốc from farm to table</li>
@@ -79,11 +82,12 @@ const AboutPage = (props) => {
             <h3>Cơ sở sản xuất đạt tiêu chuẩn</h3>
             <div id={'#sustainability'} ref={sustainabilityRef}>
               <p>
-                Cơ sở sản xuất của Rio Macca đặt tại địa phận xã Đan Phượng, huyện Lâm Hà, tỉnh Lâm Đồng, Việt Nam.
-                Với diện tích rộng, sạch sẽ và nhiều trang thiết bị hiện tại, Rio Macca đã cho ra đời hàng loạt những lô sản phẩm nông sản chất lượng được người
-                tiêu dùng Việt Nam ưa chuộng. 
+                Cơ sở sản xuất của Rio Macca đặt tại địa phận xã Đan Phượng,
+                huyện Lâm Hà, tỉnh Lâm Đồng, Việt Nam. Với diện tích rộng, sạch
+                sẽ và nhiều trang thiết bị hiện tại, Rio Macca đã cho ra đời
+                hàng loạt những lô sản phẩm nông sản chất lượng được người tiêu
+                dùng Việt Nam ưa chuộng.
               </p>
-              
             </div>
           </div>
         </Container>

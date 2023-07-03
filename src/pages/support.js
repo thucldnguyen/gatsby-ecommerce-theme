@@ -69,15 +69,15 @@ const SupportPage = (props) => {
   return (
     <Layout disablePaddingBottom>
       <div className={styles.root}>
-        <Banner
+        {/* <Banner
           maxWidth={'650px'}
           name={current.title}
           bgImage={'/support.png'}
           color={'var(--standard-white)'}
           height={'350px'}
-        />
+        /> */}
 
-        <div className={styles.navContainer}>
+        {/* <div className={styles.navContainer}>
           {subpages.map((details, index) => {
             return (
               <ThemeLink
@@ -92,7 +92,7 @@ const SupportPage = (props) => {
               </ThemeLink>
             );
           })}
-        </div>
+        </div> */}
 
         <div className={styles.pageContainer}>
           <Container size={'large'} spacing={'min'}>
@@ -100,9 +100,8 @@ const SupportPage = (props) => {
               return (
                 <div
                   key={details.key}
-                  className={`${styles.content} ${
-                    current.key === details.key ? styles.show : styles.hide
-                  }`}
+                  className={`${styles.content} ${current.key === details.key ? styles.show : styles.hide
+                    }`}
                 >
                   {renderElement(details.key)}
                 </div>

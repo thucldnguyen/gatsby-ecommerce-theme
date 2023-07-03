@@ -29,33 +29,32 @@ const IndexPage = () => {
       {/* Hero Container */}
       <Hero
         maxWidth={'500px'}
-        image={'/rio_banner2.jpg'}
-        title={'Nông sản sạch Rio Macca'}
-        subtitle={'Macadamia nuts and oil'}
-        ctaText={'Mua Ngay'}
-        ctaAction={goToShop}
+        image={'/macca_farm.jpg'}
+        title={'Rio Farm'}
+        subtitle={'Nông sản sạch'}
+      // ctaText={'Mua Ngay'}
+      // ctaAction={goToShop}
       />
-
       {/* Message Container */}
-      <div className={styles.messageContainer}>
+      {/* <div className={styles.messageContainer}>
         <p>
-        <span className={styles.gold}>Rio Macca</span> Lâm Hà - Lâm Đồng
+          <span className={styles.gold}>Rio Macca</span> Lâm Hà - Lâm Đồng
         </p>
-        
-      </div>
-
-      
-
-      {/* Collection Container 
+      </div> */}
+      <Quote
+        bgColor={'var(--standard-light-grey)'}
+        title={'Về Chúng Tôi'}
+        quote={
+          '“Rio Macca là doanh nghiệp cung cấp hạt macadamia sấy hàng đầu Lâm Hà - Lâm Đồng.”'
+        }
+      />
       <div className={styles.collectionContainer}>
         <Container size={'large'}>
-          <Title name={'New Collection'} />
+          <Title name={'Sản Phẩm'} />
           <ProductCollectionGrid />
         </Container>
-      </div> */}
-
-
-      {/* New Arrivals 
+      </div>
+      {/* New Arrivals
       <div className={styles.newArrivalsContainer}>
         <Container>
           <Title name={'New Arrivals'} link={'/shop'} textLink={'view all'} />
@@ -67,9 +66,8 @@ const IndexPage = () => {
             data={newArrivals}
           />
         </Container>
-      </div> */}
-
-      {/* Highlight  
+      </div>
+      Highlight
       <div className={styles.highlightContainer}>
         <Container size={'large'} fullMobile>
           <Highlight
@@ -83,9 +81,8 @@ const IndexPage = () => {
             link={'/shop'}
           />
         </Container>
-      </div> */}
-
-      {/* Promotion 
+      </div>
+      Promotion
       <div className={styles.promotionContainer}>
         <Hero image={'/banner2.png'} title={`-50% off \n All Essentials`} />
         <div className={styles.linkContainers}>
@@ -93,25 +90,14 @@ const IndexPage = () => {
           <Link to={'/shop'}>MAN</Link>
         </div>
       </div> */}
-
-      {/* Quote */}
-      <Quote
-        bgColor={'var(--standard-light-grey)'}
-        title={'about Rio Macca'}
-        quote={
-          '“Rio Macca là doanh nghiệp cung cấp hạt macadamia sấy hàng đầu Lâm Hà - Lâm Đồng.”'
-        }
-      />
-
-      {/* Blog Grid 
+      {/* Blog Grid
       <div className={styles.blogsContainer}>
         <Container size={'large'}>
           <Title name={'Journal'} subtitle={'Notes on life and style'} />
           <BlogPreviewGrid data={blogData} />
         </Container>
       </div> */}
-
-      {/* Promotion 
+      {/* Promotion
       <div className={styles.sustainableContainer}>
         <Hero
           image={'/banner3.png'}
@@ -124,8 +110,7 @@ const IndexPage = () => {
           ctaStyle={styles.ctaCustomButton}
         />
       </div> */}
-
-      {/* Social Media 
+      {/* Social Media
       <div className={styles.socialContainer}>
         <Title
           name={'Styled by You'}
@@ -137,10 +122,9 @@ const IndexPage = () => {
           <img src={`/social/socialMedia3.png`} alt={'social media 3'} />
           <img src={`/social/socialMedia4.png`} alt={'social media 4'} />
         </div>
-      </div> 
-
-      <AttributeGrid />*/}
-    </Layout> 
+      </div> */}
+      {/* <AttributeGrid /> */}
+    </Layout>
   );
 };
 

@@ -28,7 +28,7 @@ const MobileNavigation = (props) => {
     <div className={styles.root}>
       <nav>
         <div className={styles.headerAuth}>
-          {depth === 0 && isAuth() === false && (
+          {/* {depth === 0 && isAuth() === false && (
             <div className={styles.authLinkContainer}>
               <Link to={'/signup'}>Sign Up</Link>
               <Link to={'/login'}>Login</Link>
@@ -57,7 +57,7 @@ const MobileNavigation = (props) => {
               </div>
               <span>my account</span>
             </div>
-          )}
+          )} */}
 
           {depth === 1 && (
             <div
@@ -111,10 +111,10 @@ const MobileNavigation = (props) => {
                 );
               })}
               <div className={styles.navFooter}>
-                <Link to={'/favorites'}>
+                {/* <Link to={'/favorites'}>
                   <Icon symbol={'heart'} />
                   Favorites (0)
-                </Link>
+                </Link> */}
               </div>
             </div>
           )}

@@ -1,110 +1,191 @@
 [
-    {
-        "productCode": "MJUM8066-GYDZ",
-        "name": "Hạt macadamia sấy cao cấp",
-        "vendor": "Rio Macca",
-        "price": "120000",
-        "alt": "hạt macadamia sấy cao cấp",
+  {
+    "productCode": "MJUM8066-GYDZ",
+    "name": "Hạt macadamia sấy cao cấp",
+    "vendor": "Rio Farm",
+    "price": "120000",
+    "alt": "hạt macadamia sấy cao cấp",
+    "image": "/products/macca1.jpg",
+    "sizeOptions": [
+      "s",
+      "m",
+      "l"
+    ],
+    "wishlist": true,
+    "tags": [
+      "macca"
+    ],
+    "gallery": [
+      {
         "image": "/products/macca1.jpg",
-        "sizeOptions": ["s", "m", "l"],
-        "wishlist": true,
-        "tags": ["sample"],
-        "gallery": [
-            {"image": "/products/macca1.jpg", "alt": "pdp description 1"},
-            {"image": "/products/macca2.jpg", "alt": "pdp description 2"},
-            {"image": "/products/macca3.jpg", "alt": "pdp description 3"},
-            {"image": "/products/macca4.jpg", "alt": "pdp description 4"}
-        ],
-        "description": "Hạt macadamia do cơ sở Rio Macca sản xuất có nguồn gốc tại chỗ, sấy và đóng gói ở Lâm Hà, Lâm Đồng."
-    },
-    {
-        "name": "Hạt macadamia sấy cao cấp",
-        "price": 120,
-        "alt": "hạt macadamia sấy cao cấp",
-        "image": "/products/macca1.jpg",
-        "tags": ["hạt sấy", "macadamia"]
-    },
-    {
-        "name": "Classic T-Shirt",
-        "price": 75,
-        "alt": "classic t-shirt 2",
-        "image": "/products/shirt2.jpg",
-        "tags": ["shirt", "men"]
-    },
-    {
-        "name": "Classic T-Shirt",
-        "price": 75,
-        "alt": "classic t-shirt 3",
-        "image": "/products/shirt3.jpg",
-        "tags": ["shirt", "men"]
-    },
-    {
-        "name": "Relaxed-fit graphic T-shirt",
-        "price": 13.90,
-        "alt": "relaxed t shirt woman",
-        "image": "/products/woman1.jpeg",
-        "tags": ["woman"],
-        "meta": "+ 2 colors"
-    },
-    {
-        "name": "Relaxed-fit graphic T-shirt",
-        "price": 15.90,
-        "alt": "relaxed t shirt woman",
-        "image": "/products/woman2.jpeg",
-        "tags": ["woman"]
-    },    
-    {
-        "name": "Relaxed-fit graphic T-shirt",
-        "price": 13.90,
-        "alt": "relaxed t shirt woman",
-        "image": "/products/woman3.jpeg",
-        "tags": ["woman"],
-        "meta": "+ 2 colors"
-    },
-    {
-        "name": "Relaxed-fit graphic T-shirt",
-        "price": 15.90,
-        "alt": "relaxed t shirt woman",
-        "image": "/products/woman4.jpeg",
-        "tags": ["woman"]
-    },
-    {
-        "name": "Relaxed-fit graphic T-shirt",
-        "price": 15.90,
-        "alt": "relaxed t shirt woman",
-        "image": "/products/woman5.jpeg",
-        "tags": ["woman"],
-        "originalPrice": 31.50
-
-    },
-    {
-        "name": "Relaxed-fit graphic T-shirt",
-        "price": 21,
-        "alt": "relaxed t shirt woman",
-        "image": "/products/woman6.jpeg",
-        "tags": ["woman"]
-    },
-    {
-        "name": "Relaxed-fit graphic T-shirt",
-        "price": 15.90,
-        "alt": "relaxed t shirt woman",
-        "image": "/products/woman3.jpeg",
-        "tags": ["woman"]
-    },
-    {
-        "name": "Relaxed-fit graphic T-shirt",
-        "price": 15.90,
-        "alt": "relaxed t shirt woman",
-        "image": "/products/woman2.jpeg",
-        "tags": ["woman"],
-        "originalPrice": 31.50
-
-    },
-    {
-        "name": "Relaxed-fit graphic T-shirt",
-        "price": 21,
-        "alt": "relaxed t shirt woman",
-        "image": "/products/woman1.jpeg",
-        "tags": ["woman"]
-    }
-  ]
+        "alt": "pdp description 1"
+      },
+      {
+        "image": "/products/macca2.jpg",
+        "alt": "pdp description 2"
+      },
+      {
+        "image": "/products/macca3.jpg",
+        "alt": "pdp description 3"
+      },
+      {
+        "image": "/products/macca4.jpg",
+        "alt": "pdp description 4"
+      }
+    ],
+    "description": "Hạt macadamia do cơ sở Rio Macca sản xuất có nguồn gốc tại chỗ, sấy và đóng gói ở Lâm Hà, Lâm Đồng."
+  },
+  {
+    "productCode": "MJUM8066-GYDZ",
+    "name": "Dầu Macca",
+    "vendor": "Rio Farm",
+    "price": "120000",
+    "alt": "hạt macadamia sấy cao cấp",
+    "image": "/products/macca1.jpg",
+    "sizeOptions": [
+      "s",
+      "m",
+      "l"
+    ],
+    "wishlist": true,
+    "tags": [
+      "oil"
+    ],
+    "gallery": [
+      {
+        "image": "/products/macca6.jpg",
+        "alt": "pdp description 1"
+      }
+    ],
+    "description": "Hạt macadamia do cơ sở Rio Macca sản xuất có nguồn gốc tại chỗ, sấy và đóng gói ở Lâm Hà, Lâm Đồng."
+  },
+  {
+    "productCode": "MJUM8066-GYDZ",
+    "name": "Hạt mix",
+    "vendor": "Rio Farm",
+    "price": "120000",
+    "alt": "hạt macadamia sấy cao cấp",
+    "image": "/products/hat_mix.jpg",
+    "sizeOptions": [
+      "s",
+      "m",
+      "l"
+    ],
+    "wishlist": true,
+    "tags": [
+      "mix"
+    ],
+    "gallery": [
+      {
+        "image": "/products/hat_mix.jpg",
+        "alt": "pdp description 1"
+      }
+    ],
+    "description": "Hạt macadamia do cơ sở Rio Macca sản xuất có nguồn gốc tại chỗ, sấy và đóng gói ở Lâm Hà, Lâm Đồng."
+  },
+  {
+    "name": "Classic T-Shirt",
+    "price": 75,
+    "alt": "classic t-shirt 2",
+    "image": "/products/shirt2.jpg",
+    "tags": [
+      "shirt",
+      "men"
+    ]
+  },
+  {
+    "name": "Classic T-Shirt",
+    "price": 75,
+    "alt": "classic t-shirt 3",
+    "image": "/products/shirt3.jpg",
+    "tags": [
+      "shirt",
+      "men"
+    ]
+  },
+  {
+    "name": "Relaxed-fit graphic T-shirt",
+    "price": 13.9,
+    "alt": "relaxed t shirt woman",
+    "image": "/products/woman1.jpeg",
+    "tags": [
+      "woman"
+    ],
+    "meta": "+ 2 colors"
+  },
+  {
+    "name": "Relaxed-fit graphic T-shirt",
+    "price": 15.9,
+    "alt": "relaxed t shirt woman",
+    "image": "/products/woman2.jpeg",
+    "tags": [
+      "woman"
+    ]
+  },
+  {
+    "name": "Relaxed-fit graphic T-shirt",
+    "price": 13.9,
+    "alt": "relaxed t shirt woman",
+    "image": "/products/woman3.jpeg",
+    "tags": [
+      "woman"
+    ],
+    "meta": "+ 2 colors"
+  },
+  {
+    "name": "Relaxed-fit graphic T-shirt",
+    "price": 15.9,
+    "alt": "relaxed t shirt woman",
+    "image": "/products/woman4.jpeg",
+    "tags": [
+      "woman"
+    ]
+  },
+  {
+    "name": "Relaxed-fit graphic T-shirt",
+    "price": 15.9,
+    "alt": "relaxed t shirt woman",
+    "image": "/products/woman5.jpeg",
+    "tags": [
+      "woman"
+    ],
+    "originalPrice": 31.5
+  },
+  {
+    "name": "Relaxed-fit graphic T-shirt",
+    "price": 21,
+    "alt": "relaxed t shirt woman",
+    "image": "/products/woman6.jpeg",
+    "tags": [
+      "woman"
+    ]
+  },
+  {
+    "name": "Relaxed-fit graphic T-shirt",
+    "price": 15.9,
+    "alt": "relaxed t shirt woman",
+    "image": "/products/woman3.jpeg",
+    "tags": [
+      "woman"
+    ]
+  },
+  {
+    "name": "Relaxed-fit graphic T-shirt",
+    "price": 15.9,
+    "alt": "relaxed t shirt woman",
+    "image": "/products/woman2.jpeg",
+    "tags": [
+      "woman"
+    ],
+    "originalPrice": 31.5
+  },
+  {
+    "name": "Relaxed-fit graphic T-shirt",
+    "price": 21,
+    "alt": "relaxed t shirt woman",
+    "image": "/products/woman1.jpeg",
+    "tags": [
+      "woman"
+    ]
+  }
+]

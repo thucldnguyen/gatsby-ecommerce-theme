@@ -2,16 +2,19 @@ import React from 'react';
 
 const Facebook = () => (
   <svg
-    width={16}
-    height={16}
-    fill="none"
     xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 16 16"
+    width="48"
+    height="48"
+    viewBox="0 0 48 48"
   >
     <path
-      d="M0 8a8 8 0 1 1 8.533 7.982V9.6h2.134V8.533H8.533v-1.6a1.6 1.6 0 0 1 1.6-1.6h.534V4.267h-.534a2.667 2.667 0 0 0-2.666 2.666v1.6H5.333V9.6h2.134v6.383A8 8 0 0 1 0 8Z"
-      fill="currentColor"
-    />
+      fill="#3F51B5"
+      d="M42 37a5 5 0 01-5 5H11a5 5 0 01-5-5V11a5 5 0 015-5h26a5 5 0 015 5v26z"
+    ></path>
+    <path
+      fill="#FFF"
+      d="M34.368 25H31v13h-5V25h-3v-4h3v-2.41c.002-3.508 1.459-5.59 5.592-5.59H35v4h-2.287C31.104 17 31 17.6 31 18.723V21h4l-.632 4z"
+    ></path>
   </svg>
 );
 
