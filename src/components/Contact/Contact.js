@@ -6,10 +6,9 @@ import FormInputField from '../FormInputField/FormInputField';
 import * as styles from './Contact.module.css';
 
 const Contact = (props) => {
-  const queryString = window.location.search;
-  console.log('queryString', queryString)
-  const urlParams = new URLSearchParams(queryString);
-  const product = urlParams.get('product');
+  // const queryString = window.location.search;
+  // const urlParams = new URLSearchParams(queryString);
+  // const product = urlParams.get('product');
   const initialState = {
     name: '',
     phone: '',

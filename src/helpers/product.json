@@ -84,6 +84,30 @@
     "description": "Hạt macadamia do cơ sở Rio Macca sản xuất có nguồn gốc tại chỗ, sấy và đóng gói ở Lâm Hà, Lâm Đồng."
   },
   {
+    "productCode": "MJUM8066-GYDZ",
+    "name": "Sample Product",
+    "vendor": "Rio Farm",
+    "price": "120000",
+    "alt": "sample",
+    "image": "/products/macca1.jpg",
+    "sizeOptions": [
+      "s",
+      "m",
+      "l"
+    ],
+    "wishlist": true,
+    "tags": [
+      "sample"
+    ],
+    "gallery": [
+      {
+        "image": "/products/macca1.jpg",
+        "alt": "pdp description 1"
+      }
+    ],
+    "description": "Sample desc"
+  },
+  {
     "name": "Classic T-Shirt",
     "price": 75,
     "alt": "classic t-shirt 2",
