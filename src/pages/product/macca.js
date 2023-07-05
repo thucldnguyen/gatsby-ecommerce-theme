@@ -92,12 +92,10 @@ const ProductPage = (props) => {
                 <p>
                   Nhiều nơi trên thế giới sau này cũng bắt đầu trồng hạt mắc ca
                   như Brazil, Nam Phi, Kenya... Những năm gần đây, ở Việt Nam
-                  cũng trồng được hạt mắc ca nhưng ít được ưa chuộng vì chất
-                  lượng không được tốt. Do điều kiện thổ nhưỡng và khí hậu nên
-                  hạt mắc ca nội địa thường bị sâu, lép hạt nên mọi người vẫn
-                  thường ưa chuộng hạt mắc ca xuất xứ từ Úc hoặc Nam Phi hơn.
+                  cũng trồng được hạt mắc ca. Do điều kiện thổ nhưỡng và khí hậu thuận lợi
+                  nên hạt mắc ca Lâm Hà - Lâm Đồng đạt chất lượng thơm béo khá cao sánh ngang với bạn bè quốc tế.
                   Hình ảnh bên dưới là hạt mắc ca được thu hoạch tại cơ sở Rio
-                  Macca Lâm Hà
+                  Macca Lâm Hà - Lâm Đồng. 
                 </p>
                 <br />
 
