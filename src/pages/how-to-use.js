@@ -32,14 +32,14 @@ const HowToUsePage = (props) => {
         </div>
         <Container size={'large'} spacing={'min'}>
           <div className={styles.content} style={{ paddingTop: '80px' }}>
-            <h3>Built By Matter.</h3>
+            <h3>Built By Thuc & Hao.</h3>
             <div id="#builtBy" ref={builtRef}>
               <p>
-                This theme is proudly brought to you by the team at{' '}
-                <Button target={true} href="https://matterdesign.com.au/">
-                  Matter Design & Digital
+                This page is proudly brought to you by{' '}
+                <Button target={true} href="https://thucldnguyen.com">
+                  Thuc Nguyen
                 </Button>{' '}
-                (Matter.).
+                
               </p>
               <p>
                 The Sydney theme is built for Netlify as an ecommerce theme

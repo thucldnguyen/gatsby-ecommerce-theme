@@ -100,12 +100,12 @@ const Footer = (prop) => {
       <div className={styles.copyrightContainer}>
         <span>
           {new Date().getFullYear()} (c) . Built by{' '}
-          <Button target={true} href="https://www.matterdesign.com.au/">
-            Matter.
+          <Button target={true} href="https://www.thucldnguyen.com">
+            Thuc Nguyen & Hao Nguyen
           </Button>{' '}
           Powered by{' '}
-          <Button target={true} href="https://jamm.matter.design/">
-            JAMM.™
+          <Button target={true} href="www.netlify.com">
+            Netlify
           </Button>
         </span>
       </div>

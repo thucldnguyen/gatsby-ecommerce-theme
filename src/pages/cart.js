@@ -12,12 +12,12 @@ import * as styles from './cart.module.css';
 
 const CartPage = (props) => {
   const sampleCartItem = {
-    image: '/products/pdp1.jpeg',
+    image: '/products/macca1.jpg',
     alt: '',
-    name: 'Lambswool Crew Neck Jumper',
-    price: 220,
-    color: 'Anthracite Melange',
-    size: 'XS',
+    name: 'Hạt macadamia sấy',
+    price: 120000,
+    color: 'Vàng',
+    size: 'M',
   };
 
   return (
