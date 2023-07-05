@@ -73,7 +73,7 @@ const ProductPage = (props) => {
                   Hạt mắc ca (tên tiếng Anh: macadamia) lấy từ cây mắc ca, loại
                   cây nhiệt đới bản địa ở Úc. Hạt mắc ca còn có một số tên gọi
                   phổ biến hơn là hạt Queensland hay hạt cây bụi. Vỏ hạt mắc ca
-                  thường rất cứng, có đỉnh nhọn và chứa một hoặc hai hạt nhỏ bên
+                  thường rất cứng, có đỉnh nhọn và chứa một hạt nhỏ bên
                   trong. Hạt mắc ca có giá trị dinh dưỡng rất lớn trong thế giới
                   các loại hạt, trong đó chứa nhiều đạm thực vật, omega 3, omega
                   6, omega 9 và có hơn 20 loại vitamin cùng khoáng chất cần
@@ -167,6 +167,7 @@ const ProductPage = (props) => {
                   cho tim mạch, trong đó axit béo palmitoleic là axit có khả
                   năng:
                 </p>
+                <br />
 
                 <p>
                   <ol>
