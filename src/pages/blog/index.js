@@ -18,43 +18,37 @@ const BlogPage = (props) => {
       <div className={styles.root}>
         <Hero
           maxWidth={'400px'}
-          image={'/blogCover.png'}
-          title={`The new standard of Closing`}
-          ctaLink={'read story'}
-          ctaTo={'/blog/sample'}
-          header={'design'}
+          image={'/healthyfood.jpeg'}
+          title={`Blog nhà Rio Macca`}
+          ctaLink={'Read More'}
+          ctaTo={'/blog/tai-sao-chon-rio-macca'}
+          header={'HEALTHY FOOD'}
         />
 
         <div className={styles.navContainer}>
           <ThemeLink
-            onClick={() => navigate('/blog/sample')}
-            to={'/blog/sample'}
+            onClick={() => navigate('/blog')}
+            to={'/blog'}
           >
             All Posts
           </ThemeLink>
           <ThemeLink
-            onClick={() => navigate('/blog/sample')}
-            to={'/blog/sample'}
+            onClick={() => navigate('/blog')}
+            to={'/blog'}
           >
-            Design
+            Macadamia
           </ThemeLink>
           <ThemeLink
-            onClick={() => navigate('/blog/sample')}
-            to={'/blog/sample'}
+            onClick={() => navigate('/blog')}
+            to={'/blog'}
           >
-            Collaboration
+            Dầu Macadamia
           </ThemeLink>
           <ThemeLink
-            onClick={() => navigate('/blog/sample')}
-            to={'/blog/sample'}
+            onClick={() => navigate('/blog')}
+            to={'/blog'}
           >
-            Interview
-          </ThemeLink>
-          <ThemeLink
-            onClick={() => navigate('/blog/sample')}
-            to={'/blog/sample'}
-          >
-            News
+            Hạt mix
           </ThemeLink>
         </div>
 

@@ -21,7 +21,7 @@ const IndexPage = () => {
   const blogData = generateMockBlogData(3);
 
   const goToShop = () => {
-    navigate('/product/sample');
+    navigate('/product/macca');
   };
 
   return (
@@ -90,26 +90,27 @@ const IndexPage = () => {
           <Link to={'/shop'}>MAN</Link>
         </div>
       </div> */}
-      {/* Blog Grid
+      {/* Blog Grid */}
       <div className={styles.blogsContainer}>
         <Container size={'large'}>
-          <Title name={'Journal'} subtitle={'Notes on life and style'} />
+          <Title name={'Blog Rio Macca'} subtitle={'Những bài viết mới nhất về Rio Macca'} />
           <BlogPreviewGrid data={blogData} />
         </Container>
-      </div> */}
-      {/* Promotion
+      </div> 
+      {/* Promotion */}
       <div className={styles.sustainableContainer}>
         <Hero
-          image={'/banner3.png'}
-          title={'We are Sustainable'}
+          image={'/antoanthucpham.webp'}
+          title={'Nói không với hàng kém vệ sinh'}
           subtitle={
-            'From caring for our land to supporting our people, discover the steps we’re taking to do more for the world around us.'
+            'Vệ sinh an toàn thực phẩm là ưu tiên hàng đầu của Rio Macca Lâm Hà.'
           }
-          ctaText={'read more'}
+          ctaText={'Mua Ngay'}
           maxWidth={'660px'}
           ctaStyle={styles.ctaCustomButton}
+          ctaAction={goToShop}
         />
-      </div> */}
+      </div> 
       {/* Social Media */}
       <div className={styles.socialContainer}>
         <Title

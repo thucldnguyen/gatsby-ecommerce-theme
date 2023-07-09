@@ -92,6 +92,11 @@
       "category": null
     },
     {
+      "menuLabel": "Blog",
+      "menuLink": "/blog",
+      "category": null
+    },
+    {
       "menuLabel": "Liên Hệ",
       "menuLink": "/about",
       "category": null
