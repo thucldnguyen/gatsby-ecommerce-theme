@@ -14,7 +14,7 @@ const ProductCollectionGrid = (props) => {
       />
       <ProductCollection
         image={'/products/macca4.jpg'}
-        title={'Macca Sấy'}
+        title={'Macca Sấy Tách Vỏ'}
         text={'Xem thêm'}
         link={'/product/macca'}
       />
