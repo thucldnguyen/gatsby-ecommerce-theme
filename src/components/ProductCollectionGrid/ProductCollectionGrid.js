@@ -18,7 +18,7 @@ const ProductCollectionGrid = (props) => {
         text={'Xem thêm'}
         link={'/product/macca'}
       />
-      <ProductCollection
+      {/* <ProductCollection
         image={'/products/macca6.jpg'}
         title={'Dầu Macca'}
         text={'Xem thêm'}
@@ -29,7 +29,7 @@ const ProductCollectionGrid = (props) => {
         title={'Hạt Mix'}
         text={'Xem thêm'}
         link={'/product/mix-nuts'}
-      />
+      /> */}
     </div>
   );
 };
