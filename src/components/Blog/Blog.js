@@ -12,9 +12,11 @@ const Blog = (props) => {
     <div className={styles.root}>
       <span className={styles.category}>{category}</span>
       <h1 className={styles.title}>{title}</h1>
-      <div className={styles.imageContainer}>
-        <img src={image} alt={alt} />
-      </div>
+      {image && (
+        <div className={styles.imageContainer}>
+          <img src={image} alt={alt} />
+        </div>
+      )}
       <div>{children}</div>
       <div className={styles.footerContainer}>
         <span>Share with:</span>

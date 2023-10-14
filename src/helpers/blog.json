@@ -1,26 +1,34 @@
 [
-    {
-        "title": "3 lý do nên chọn hạt mắc ca của Rio Macca",
-        "category": "Macadamia",
-        "alt": "Tại sao nên chọn hạt mắc ca của Rio Macca",
-        "image": "/blogs/macadamia-nuts.jpeg",
-        "link": "/blog/tai-sao-chon-rio-macca",
-        "excerpt": "Hạt macadamia của Rio Macca Lâm Hà có chất lượng tuyệt vời"
-    },
-    {
-        "title": "Cơ sở sản xuất Rio Macca có đạt tiêu chuẩn?",
-        "category": "General",
-        "alt": "cơ sở đạt tiêu chuẩn",
-        "image": "/blogs/coso3.jpeg",
-        "link": "/blog/co-so-dat-chuan",
-        "excerpt": "Nhà xưởng sản xuất mắc ca của Rio Macca đặt tại Lâm Hà - Lâm Đồng."
-    },
-    {
-        "title": "Lô hàng R20230701 vừa xuất xưởng",
-        "category": "News",
-        "alt": "lô hàng R20230701",
-        "image": "/blogs/coso2.jpeg",
-        "link": "/blog/lo-hang-202307",
-        "excerpt": "Lô hàng R20230701 của Rio Macca vừa xuất xưởng với hơn 300 sản phẩm."
-    }
-  ]
+  {
+    "title": "Câu chuyện sản phẩm: Hạt macca sấy khô",
+    "category": "Macadamia",
+    "alt": "Câu chuyện sản phẩm",
+    "image": "/blogs/macca-story01.jpg",
+    "link": "/blog/cau-chuyen-san-pham",
+    "excerpt": "Sản phẩm Macca RIO - Hạt macca sấy khô"
+  },
+  {
+    "title": "3 lý do nên chọn hạt mắc ca của Rio Macca",
+    "category": "Macadamia",
+    "alt": "Tại sao nên chọn hạt mắc ca của Rio Macca",
+    "image": "/blogs/macadamia-nuts.jpeg",
+    "link": "/blog/tai-sao-chon-rio-macca",
+    "excerpt": "Hạt macadamia của Rio Macca Lâm Hà có chất lượng tuyệt vời"
+  },
+  {
+    "title": "Cơ sở sản xuất Rio Macca có đạt tiêu chuẩn?",
+    "category": "General",
+    "alt": "cơ sở đạt tiêu chuẩn",
+    "image": "/blogs/coso3.jpeg",
+    "link": "/blog/co-so-dat-chuan",
+    "excerpt": "Nhà xưởng sản xuất mắc ca của Rio Macca đặt tại Lâm Hà - Lâm Đồng."
+  },
+  {
+    "title": "Lô hàng R20230701 vừa xuất xưởng",
+    "category": "News",
+    "alt": "lô hàng R20230701",
+    "image": "/blogs/coso2.jpeg",
+    "link": "/blog/lo-hang-202307",
+    "excerpt": "Lô hàng R20230701 của Rio Macca vừa xuất xưởng với hơn 300 sản phẩm."
+  }
+]
