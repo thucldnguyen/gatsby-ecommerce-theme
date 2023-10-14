@@ -18,8 +18,8 @@ const SamplePage = (props) => {
             >
               <div className={styles.content}>
                 <p className={styles.excerpt}>
-                  Sản phẩm: MACCA RIO - HẠT MẮC CA SẤY KHÔ<br />
-                  Chủ thể: Hộ kinh doanh RIO MACCA<br />
+                  Sản phẩm: Macca Rio - Hạt macca sấy khô<br />
+                  Chủ thể: Hộ kinh doanh Rio Macca<br />
                   Địa chỉ: Thôn Đoàn Kết, xã Đan Phượng, huyện Lâm Hà, tỉnh Lâm Đồng
 
                 </p>
@@ -73,13 +73,13 @@ const SamplePage = (props) => {
                 </p>
                 <div className={styles.imagesContainer}>
                   <div className={styles.imageContainer}>
-                    <img src={'/blogs/macca-story06.jpg'} alt={'sample1'} />
+                    <img style={{ objectFit: 'contain' }} src={'/blogs/macca-story06.jpg'} alt={'sample1'} />
                   </div>
                   <div className={styles.imageContainer}>
-                    <img src={'/blogs/macca-story07.jpg'} alt={'sample1'} />
+                    <img style={{ objectFit: 'contain' }} src={'/blogs/macca-story07.jpg'} alt={'sample1'} />
                   </div>
                   <div className={styles.imageContainer}>
-                    <img style={{ alignSelf: 'center' }} src={'/blogs/macca-story08.jpg'} alt={'sample1'} />
+                    <img style={{ objectFit: 'contain' }} src={'/blogs/macca-story08.jpg'} alt={'sample1'} />
                   </div>
                 </div>
                 <p className={styles.blogParagraph}>
