@@ -67,12 +67,15 @@ const SamplePage = (props) => {
                   </div>
                 </div>
                 <p className={styles.blogParagraph}>
-                  Hiện nay, trung bình mỗi năm, Ri Ô mắc ca chế biến thành phẩm và tiêu thụ đạt sản lượng trên 10 tấn mắc ca. Cơ sở đạt các điều kiện như giấy chứng nhận đăng ký kinh doanh,
+                  Hiện nay, trung bình mỗi năm, Rio Macca chế biến thành phẩm và tiêu thụ đạt sản lượng trên 10 tấn mắc ca. Cơ sở đạt các điều kiện như giấy chứng nhận đăng ký kinh doanh,
                   chứng nhận cơ sở đủ điều kiện an toàn thực phẩm, đồng thời đã tiến hành tự công bố sản phẩm theo quy định. Toàn bộ sản phẩm mắc ca sấy nứt được phân loại theo size lớn và
-                  size trung, đóng gói hút chân không hoặc đựng trong lon PET với khối lượng tịnh loại 250g và loại 500g. Bên cạnh các thông tin về nơi sản xuất, số điện thoại liên hệ, website
-                  được in trên bao bì, khách hàng còn có thể trích xuất mã QR để kiểm tra, xác minh thêm về thông tin sản phẩm. Với những cam kết về uy tín, chất lượng, hộ kinh doanh Ri Ô Mắc ca
+                  size trung, đóng gói hút chân không hoặc đựng trong lon PET với khối lượng tịnh loại 250g và loại 500g.
+                </p>
+                <p className={styles.blogParagraph}>
+                  Bên cạnh các thông tin về nơi sản xuất, số điện thoại liên hệ, website
+                  được in trên bao bì, khách hàng còn có thể trích xuất mã QR để kiểm tra, xác minh thêm về thông tin sản phẩm. Với những cam kết về uy tín, chất lượng, hộ kinh doanh Rio Macca
                   đã thiết lập và xây dựng cho mình kênh tiêu thụ sản phẩm ổn định trên nền tảng của facebook, zalo với hàng nghìn lượt theo dõi, tương tác. Với mỗi đơn hàng được gửi đi,
-                  Ri Ô Mắc ca vẫn luôn cầu thị, tiếp thu các ý kiến đánh giá của khách hàng để không ngừng hoàn thiện về mẫu mã và nâng cao chất lượng sản phẩm.
+                  Rio Macca vẫn luôn cầu thị, tiếp thu các ý kiến đánh giá của khách hàng để không ngừng hoàn thiện về mẫu mã và nâng cao chất lượng sản phẩm.
                 </p>
                 <div className={styles.imagesContainer}>
                   <div className={styles.imageContainer}>
