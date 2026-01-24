@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Detection</title>
+</head>
+<body>
+    <!-- 
+        This file is just for Netlify Bot detection.
+        It will not be rendered to the user.
+    -->
+    <form name="checkout" method="POST" data-netlify="true" netlify-honeypot="bot-field" hidden>
+        <input type="hidden" name="form-name" value="checkout" />
+        <input type="text" name="name" />
+        <input type="text" name="phone" />
+        <input type="text" name="address" />
+        <input type="text" name="captchaAnswer" />
+        <textarea name="orderSummary"></textarea>
+        <input type="text" name="totalPrice" />
+    </form>
+</body>
+</html>
