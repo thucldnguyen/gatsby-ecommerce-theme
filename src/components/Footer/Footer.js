@@ -40,7 +40,7 @@ const Footer = (prop) => {
   };
 
   const renderMap = () => {
-    return `<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3906.8041489407865!2d108.1795899743631!3d11.708279741316327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31715bbfbfaa993f%3A0xc88d819f06a65760!2sRio%20macca!5e0!3m2!1sen!2s!4v1701957242833!5m2!1sen!2s" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`;
+    return `<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3906.8041489407865!2d108.1795899743631!3d11.708279741316327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31715bbfbfaa993f%3A0xc88d819f06a65760!2sRio%20macca!5e0!3m2!1sen!2s!4v1701957242833!5m2!1sen!2s" style="border:0; border-radius: 12px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`;
   };
 
   return (

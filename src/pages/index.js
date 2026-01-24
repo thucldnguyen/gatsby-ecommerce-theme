@@ -13,6 +13,8 @@ import Title from '../components/Title';
 
 import { generateMockBlogData, generateMockProductData } from '../helpers/mock';
 
+import ContactForm from '../components/ContactForm/ContactForm';
+
 import * as styles from './index.module.css';
 import { Link, navigate } from 'gatsby';
 
@@ -48,6 +50,21 @@ const IndexPage = () => {
               '“Rio Macca là doanh nghiệp cung cấp hạt macadamia sấy hàng đầu Lâm Hà - Lâm Đồng.”'
             }
           />
+        </Container>
+      </div>
+      <div className={styles.videoContainer}>
+        <Container>
+          <center>
+            <iframe
+              title='Rio Macca'
+              width='100%'
+              height='500'
+              src='https://www.youtube.com/embed/BUKddHPS3pk?rel=0'
+              frameBorder='0'
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen>
+            </iframe>
+          </center>
         </Container>
       </div>
       <div className={styles.collectionContainer}>
@@ -127,6 +144,7 @@ const IndexPage = () => {
           </div>
         </Container>
       </div>
+      <ContactForm formName="home-contact" />
       <Container>
         <AttributeGrid />
       </Container>

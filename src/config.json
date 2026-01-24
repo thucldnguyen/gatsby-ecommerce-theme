@@ -50,8 +50,8 @@
       "subTitle": "Info",
       "links": [
         {
-          "text": "About Us",
-          "link": "/about"
+          "text": "Contact Us",
+          "link": "/contact-us"
         },
         {
           "text": "Journal",
@@ -94,7 +94,7 @@
     },
     {
       "menuLabel": "Liên Hệ",
-      "menuLink": "/about",
+      "menuLink": "/contact-us",
       "category": null
     }
   ],

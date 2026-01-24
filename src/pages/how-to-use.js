@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import * as styles from './about.module.css';
+import * as styles from './contact-us.module.css';
 
 import Layout from '../components/Layout/Layout';
 import ThemeLink from '../components/ThemeLink';
@@ -39,7 +39,7 @@ const HowToUsePage = (props) => {
                 <Button target={true} href="https://thucldnguyen.com">
                   Thuc Nguyen
                 </Button>{' '}
-                
+
               </p>
               <p>
                 The Sydney theme is built for Netlify as an ecommerce theme
