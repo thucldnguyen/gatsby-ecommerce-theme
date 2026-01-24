@@ -17,20 +17,11 @@ const CartPage = (props) => {
     <Layout>
       <div className={styles.contentContainer}>
         <Container size={'large'} spacing={'min'}>
-          <div className={styles.headerContainer}>
-            <div className={styles.shoppingContainer}>
-              <Link className={styles.shopLink} to={'/'}>
-                <Icon symbol={'arrow'}></Icon>
-                <span className={styles.continueShopping}>
-                  Tiếp tục mua sắm
-                </span>
-              </Link>
-            </div>
-          </div>
+
           <div className={styles.summaryContainer}>
             <h3>Giỏ hàng của tôi</h3>
             <div className={styles.cartContainer}>
-              <div className={styles.cartItemsContainer}>
+              <div className={`${styles.cartItemsContainer} ${styles.glassBox}`}>
                 {cart.length > 0 ? (
                   cart.map((item) => (
                     <CartItem key={item.productCode} {...item} />
@@ -39,7 +30,9 @@ const CartPage = (props) => {
                   <p>Giỏ hàng của bạn đang trống.</p>
                 )}
               </div>
-              <OrderSummary />
+              <div className={styles.glassBox}>
+                <OrderSummary />
+              </div>
             </div>
           </div>
         </Container>

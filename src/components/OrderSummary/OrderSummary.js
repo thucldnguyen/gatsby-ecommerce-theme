@@ -14,26 +14,8 @@ const OrderSummary = (props) => {
     <div className={styles.root}>
       <div className={styles.orderSummary}>
         <span className={styles.title}>Tóm tắt đơn hàng</span>
-        <div className={styles.calculationContainer}>
-          <div className={styles.labelContainer}>
-            <span>Tạm tính</span>
-            <span>
-              <CurrencyFormatter amount={cartTotal} appendZero />
-            </span>
-          </div>
-          <div className={styles.labelContainer}>
-            <span>Phí vận chuyển</span>
-            <span>---</span>
-          </div>
-          <div className={styles.labelContainer}>
-            <span>Thuế</span>
-            <span>
-              <CurrencyFormatter amount={0} appendZero />
-            </span>
-          </div>
-        </div>
         <div className={styles.totalContainer}>
-          <span>Tổng cộng: </span>
+          <span>Chi phí: </span>
           <span>
             <CurrencyFormatter amount={cartTotal} appendZero />
           </span>

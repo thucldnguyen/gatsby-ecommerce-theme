@@ -1,6 +1,4 @@
-.root {
-
-}
+.root {}
 
 .headerAuth {
     background-color: var(--standard-light-grey);
@@ -11,8 +9,8 @@
 .authLinkContainer a {
     color: var(--standard-gold);
     font-weight: 500;
-    font-size: 14px;
-    line-height: 17px;
+    font-size: 16px;
+    line-height: 20px;
 }
 
 .welcomeContainer {
@@ -33,9 +31,9 @@
     font-size: 14px;
     line-height: 17px;
     color: var(--standard-gold);
-} 
+}
 
-.authLinkContainer a:first-child{
+.authLinkContainer a:first-child {
     margin-right: 24px;
     padding-right: 24px;
     border-right: 1px solid var(--standard-gold);
@@ -77,16 +75,17 @@
 }
 
 .mobileLink {
-    padding: 12px 24px;
+    padding: 20px 24px;
     font-weight: 500;
-    font-size: 12px;
-    line-height: 15px;
+    font-size: 24px;
+    line-height: 28px;
     text-transform: uppercase;
-    color: var(--standard-black);
+    color: #0F172A;
 
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 12px;
 }
 
 .mobileLink svg {
@@ -97,15 +96,16 @@
 
 .edgeLink {
     text-transform: capitalize;
-    padding: 12px 24px;
+    padding: 16px 24px;
     font-weight: 500;
-    font-size: 12px;
-    line-height: 15px;
-    color: var(--standard-black);
+    font-size: 20px;
+    line-height: 24px;
+    color: #0F172A;
 
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 12px;
 }
 
 .navFooter {
@@ -114,7 +114,8 @@
     margin: 16px 16px 0px 16px;
 }
 
-.navFooter a, .logoutContainer {
+.navFooter a,
+.logoutContainer {
     display: flex;
     align-items: center;
     color: var(--standard-black);
@@ -123,9 +124,9 @@
     line-height: 15px;
 }
 
-.navFooter svg, .logoutContainer svg {
+.navFooter svg,
+.logoutContainer svg {
     margin-right: 24px;
     width: 20px;
     height: 20px;
 }
-

@@ -11,6 +11,7 @@ const Drawer = ({
   top = '0px',
   isReverse = false,
   hideCross = false,
+  customClass = '',
 }) => {
   useEffect(() => {
     window.addEventListener('keydown', escapeHandler);
@@ -37,25 +38,22 @@ const Drawer = ({
     `}
     >
       <div
-        className={`${styles.overlay} ${
-          visible === true ? styles.showOverlay : styles.hide
-        }`}
+        className={`${styles.overlay} ${visible === true ? styles.showOverlay : styles.hide
+          }`}
         role={'presentation'}
         onClick={close}
       >
         <div
-          className={`${styles.iconContainer} ${
-            hideCross === true ? styles.hide : ''
-          }`}
+          className={`${styles.iconContainer} ${hideCross === true ? styles.hide : ''
+            }`}
         >
           <Icon symbol={'cross'}></Icon>
         </div>
       </div>
 
       <div
-        className={`${styles.content} ${
-          visible === true ? showStyle : hideStyle
-        }`}
+        className={`${styles.content} ${visible === true ? showStyle : hideStyle
+          }  ${customClass}`}
       >
         {children}
       </div>

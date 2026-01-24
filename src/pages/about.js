@@ -60,10 +60,10 @@ const AboutPage = (props) => {
           <img alt={'shirt brand'} src={'/coso2.jpeg'}></img>
         </div>
 
-        <Container size={'narrow'}>
-          <div className={styles.content}>
-            <h3>Giá trị cốt lõi</h3>
-            <div ref={valuesRef}>
+        <Container>
+          <div className={styles.splitSection}>
+            <div className={styles.content} ref={valuesRef}>
+              <h3>Giá trị cốt lõi</h3>
               <p>
                 Nắm bắt được nhu cầu thị hiếu của người tiêu dùng Việt Nam, Rio
                 Macca được thành lập để đem đến cho người tiêu dùng Việt Nam
@@ -75,10 +75,15 @@ const AboutPage = (props) => {
                 <li>Chất lượng phản ánh đúng giá thành</li>
                 <li>Nguyên liệu tại chỗ</li>
               </ol>
+            </div>
+            <div className={styles.imageSide}>
               <img alt={'founder'} src={'/founder.jpeg'}></img>
             </div>
-            <h3>Cơ sở sản xuất đạt tiêu chuẩn</h3>
-            <div id={'#sustainability'} ref={sustainabilityRef}>
+          </div>
+
+          <div className={styles.splitSection}>
+            <div className={styles.content} id={'#sustainability'} ref={sustainabilityRef}>
+              <h3>Cơ sở sản xuất đạt tiêu chuẩn</h3>
               <p>
                 Cơ sở sản xuất của Rio Macca đặt tại địa phận xã Đan Phượng,
                 huyện Lâm Hà, tỉnh Lâm Đồng, Việt Nam. Với diện tích rộng, sạch
@@ -87,12 +92,11 @@ const AboutPage = (props) => {
                 dùng Việt Nam ưa chuộng.
               </p>
             </div>
+            <div className={styles.imageSide}>
+              <img alt={'shirt backwards'} src={'/coso3.jpeg'}></img>
+            </div>
           </div>
         </Container>
-
-        <div className={styles.imageContainer}>
-          <img alt={'shirt backwards'} src={'/coso3.jpeg'}></img>
-        </div>
       </div>
     </Layout>
   );

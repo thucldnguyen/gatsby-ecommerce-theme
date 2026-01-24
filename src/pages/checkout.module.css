@@ -1,8 +1,3 @@
-.headerContainer {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}
-
 .contentContainer {
     width: 100%;
     min-height: 100vh;
@@ -11,8 +6,7 @@
     padding-bottom: 88px;
 }
 
-.summaryContainer,
-.cartContainer {
+.summaryContainer {
     margin-top: 72px;
 }
 
@@ -31,8 +25,6 @@
     gap: 40px;
 }
 
-
-
 .glassBox {
     background-color: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(20px);
@@ -44,52 +36,12 @@
     color: var(--standard-black);
 }
 
-.shoppingContainer {
-    display: flex;
-    align-items: center;
+.glassBox h4 {
+    margin-bottom: 20px;
+    font-size: 24px;
 }
 
-.shopLink {
-    transition: all ease-in-out 0.3s;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 17px;
 
-    display: flex;
-    align-items: center;
-    color: var(--standard-black);
-}
-
-.shopLink:hover {
-    color: var(--standard-gold);
-}
-
-.shopLink svg {
-    transform: rotate(-180deg);
-    margin-right: 8px;
-    width: 15px;
-    height: 15px;
-}
-
-.loginContainer {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-.loginContainer a {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 17px;
-    color: var(--standard-black);
-    transition: color ease-in-out 0.3s;
-    cursor: pointer;
-    transition: all ease-in-out 0.3s;
-}
-
-.loginContainer a:hover {
-    color: var(--standard-gold);
-}
 
 @media (max-width: 1150px) {
     .cartContainer {
@@ -107,13 +59,4 @@
         font-size: 32px;
         line-height: 38px;
     }
-
-    .continueShopping {
-        display: none;
-    }
-
-    .headerContainer {
-        margin: 0px 8px;
-    }
-
 }

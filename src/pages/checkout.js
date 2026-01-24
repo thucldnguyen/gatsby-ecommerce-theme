@@ -8,7 +8,7 @@ import FormInputField from '../components/FormInputField';
 import CurrencyFormatter from '../components/CurrencyFormatter';
 import { CartContext } from '../context/CartProvider';
 
-import * as styles from './cart.module.css'; // Reusing some cart styles
+import * as styles from './checkout.module.css';
 
 const CheckoutPage = () => {
     const { cart, cartTotal, clearCart } = useContext(CartContext);
@@ -88,7 +88,7 @@ const CheckoutPage = () => {
                     <div className={styles.summaryContainer}>
                         <h3>Thanh toán</h3>
                         <div className={styles.cartContainer}>
-                            <div className={styles.cartItemsContainer}>
+                            <div className={`${styles.cartItemsContainer} ${styles.glassBox}`}>
                                 <h4>Thông tin giao hàng</h4>
                                 <form
                                     name="checkout"
@@ -150,7 +150,7 @@ const CheckoutPage = () => {
                                 </form>
                             </div>
 
-                            <div style={{ flex: 1, padding: '20px', backgroundColor: '#f9f9f9', borderRadius: '8px' }}>
+                            <div className={styles.glassBox} style={{ flex: 1 }}>
                                 <h4>Đơn hàng của bạn</h4>
                                 {cart.map((item) => (
                                     <div key={item.productCode} style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '10px' }}>
@@ -158,7 +158,7 @@ const CheckoutPage = () => {
                                         <CurrencyFormatter amount={item.price * item.quantity} />
                                     </div>
                                 ))}
-                                <hr style={{ margin: '20px 0' }} />
+                                <hr style={{ margin: '20px 0', opacity: 0.3 }} />
                                 <div style={{ display: 'flex', justifyContent: 'space-between', fontWeight: 'bold' }}>
                                     <span>Tổng cộng</span>
                                     <CurrencyFormatter amount={cartTotal} />

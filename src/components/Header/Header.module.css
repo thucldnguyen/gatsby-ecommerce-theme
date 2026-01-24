@@ -7,15 +7,15 @@
 }
 
 .iconButton {
-  border: none;
-  background-color: unset;
-  overflow: visible;
-  text-transform: none;
-  font-family: inherit;
-  font-size: 100%;
-  line-height: 1.15;
-  margin: 0;
-  -webkit-appearance: button;
+    border: none;
+    background-color: unset;
+    overflow: visible;
+    text-transform: none;
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+    -webkit-appearance: button;
 }
 
 .header {
@@ -63,15 +63,15 @@
 }
 
 .actionContainers {
-  display: flex;
-  flex-direction: row;
-  justify-content: end;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
 }
 
-.actionContainers > * {
-  margin-right: 32px;
-  cursor: pointer;
-  color: var(--standard-black);
+.actionContainers>* {
+    margin-right: 32px;
+    cursor: pointer;
+    color: var(--standard-black);
 }
 
 .iconContainer {
@@ -130,7 +130,7 @@
     margin-bottom: 40px;
 }
 
-.searchForm input{
+.searchForm input {
     width: 95% !important;
     border-bottom: 1px solid var(--standard-black) !important;
     border-left: 1px solid transparent !important;
@@ -154,7 +154,7 @@
     color: var(--standard-black);
     border: 1px solid var(--bg-light-gray);
     text-transform: capitalize;
-    transition: all ;
+    transition: all;
     cursor: pointer;
 }
 
@@ -206,9 +206,17 @@
     justify-content: center;
 }
 
-.bagNotification span{
+.bagNotification span {
     color: var(--standard-white);
     font-size: 9px;
+}
+
+.glassDrawer {
+    background-color: rgba(255, 255, 255, 0.2) !important;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 }
 
 @media (max-width: 800px) {
@@ -217,7 +225,7 @@
     }
 
     .linkContainer {
-      display: none;
+        display: none;
     }
 
     .burgerIcon {
@@ -234,12 +242,12 @@
         display: none;
     }
 
-    .actionContainers > * {
+    .actionContainers>* {
         margin-right: 16px;
         cursor: pointer;
     }
 
-    .actionContainers > *:last-child {
+    .actionContainers>*:last-child {
         margin-right: 0px;
     }
 
@@ -256,5 +264,5 @@
     .searchContainer h4 {
         font-size: 32px;
         line-height: 42px;
-    }    
+    }
 }

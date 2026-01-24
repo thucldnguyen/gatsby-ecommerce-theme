@@ -206,6 +206,7 @@ const Header = (prop) => {
           isReverse
           visible={mobileMenu}
           close={() => setMobileMenu(false)}
+          customClass={styles.glassDrawer}
         >
           <MobileNavigation close={() => setMobileMenu(false)} />
         </Drawer>

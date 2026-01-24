@@ -15,7 +15,10 @@
     position: sticky;
     gap: 48px;
     top: 150px;
-    background-color: var(--standard-white);
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
     overflow-x: auto;
     padding-left: 32px;
     padding-right: 32px;
@@ -30,15 +33,17 @@
 }
 
 .detailContainer {
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .detailContainer p {
     font-family: var(--standard-header);
-    font-size: 32px;
-    line-height: 1.4;
+    font-size: 20px;
+    line-height: 1.5;
     text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .imageContainer {
@@ -52,15 +57,30 @@
     object-fit: cover;
 }
 
-.content {
-    display: flex;
-    flex-direction: column;
+.splitSection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 40px;
-    margin-bottom: 80px;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.splitSection img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    max-height: 400px;
+    border-radius: 4px;
+}
+
+.content {
+    display: block;
+    /* Removed flex column to allow custom grid usage inside if needed, though we might replace content with splitSection */
+    margin-bottom: 40px;
 }
 
 .content h3 {
-    margin-top: 40px;
+    margin-top: 0;
     margin-bottom: 20px;
 }
 
@@ -68,14 +88,7 @@
     font-weight: normal;
     font-size: 16px;
     line-height: 26px;
-    margin-bottom: 40px;
-}
-
-.content img {
-    object-fit: cover;
-    width: 100%;
-    height: auto;
-    max-height: 600px;
+    margin-bottom: 24px;
 }
 
 .content ol {
@@ -84,9 +97,8 @@
 }
 
 .content ol li {
-    font-family: var(--standard-header);
-    font-size: 24px;
-    line-height: 1.5;
+    font-size: 16px;
+    line-height: 26px;
     margin-bottom: 16px;
 }
 
@@ -110,34 +122,29 @@
 }
 
 @media (max-width: 900px) {
-    .content {
+    .splitSection {
         grid-template-columns: 1fr;
-        gap: 24px 0px;
+        gap: 32px;
     }
 
     .content h3 {
-        font-size: 32px;
-        line-height: 38px;
-    }
-
-    .content ol li {
-        font-size: 22px;
-        line-height: 42px;
+        font-size: 28px;
+        line-height: 34px;
     }
 
     .detailContainer p {
-        font-size: 22px;
-        line-height: 28px;
+        font-size: 18px;
+        line-height: 26px;
     }
 
     .imageContainer {
         min-height: unset;
-        margin: 24px 16px;
-        height: 240px;
+        margin: 24px 0;
+        height: auto;
     }
 
     .imageContainer img {
-        height: 100%;
+        height: auto;
     }
 
     .detailContainer {

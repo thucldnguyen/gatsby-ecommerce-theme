@@ -28,10 +28,7 @@ const MiniCart = (props) => {
       <div className={styles.summaryContainer}>
         <div className={styles.summaryContent}>
           <div className={styles.totalContainer}>
-            <span>Tổng cộng</span>
-            <span>
-              <CurrencyFormatter amount={cartTotal} appendZero />
-            </span>
+            <CurrencyFormatter amount={cartTotal} appendZero />
           </div>
           <span className={styles.taxNotes}>
             Phí vận chuyển sẽ được tính khi thanh toán
