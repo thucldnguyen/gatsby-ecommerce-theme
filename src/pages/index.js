@@ -14,6 +14,7 @@ import Title from '../components/Title';
 import { generateMockBlogData, generateMockProductData } from '../helpers/mock';
 
 import ContactForm from '../components/ContactForm/ContactForm';
+import VideoPlayer from '../components/VideoPlayer/VideoPlayer';
 
 import * as styles from './index.module.css';
 import { Link, navigate } from 'gatsby';
@@ -54,17 +55,7 @@ const IndexPage = () => {
       </div>
       <div className={styles.videoContainer}>
         <Container>
-          <center>
-            <iframe
-              title='Rio Macca'
-              width='100%'
-              height='500'
-              src='https://www.youtube.com/embed/BUKddHPS3pk?rel=0'
-              frameBorder='0'
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen>
-            </iframe>
-          </center>
+          <VideoPlayer videoId="BUKddHPS3pk" title="Rio Macca" poster="/video-poster.png" />
         </Container>
       </div>
       <div className={styles.collectionContainer}>
