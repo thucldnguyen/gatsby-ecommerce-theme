@@ -1,6 +1,4 @@
-.root {
-
-}
+.root {}
 
 .blogContainer {
     margin-top: 80px;
@@ -8,16 +6,16 @@
 
 .excerpt {
     font-weight: normal;
-    font-size: 32px;
-    line-height: 42px;
+    font-size: 20px;
+    line-height: 1.4;
     font-family: var(--standard-header);
 }
 
 .blogParagraph {
     font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    margin-top: 48px;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-top: 24px;
 }
 
 .imagesContainer {
@@ -30,7 +28,7 @@
 .imageContainer {
     width: 100%;
     height: 700px;
-} 
+}
 
 .imageContainer img {
     width: 100%;
@@ -39,10 +37,10 @@
 }
 
 .blogSubHeader {
-    font-size: 32px;
-    line-height: 42px;
+    font-size: 22px;
+    line-height: 1.3;
     font-weight: normal;
-    margin-bottom: 32px;
+    margin-bottom: 20px;
 }
 
 .content {
@@ -56,8 +54,8 @@
     }
 
     .excerpt {
-        font-size: 22px;
-        line-height: 28px;
+        font-size: 18px;
+        line-height: 1.4;
     }
 
     .content {
@@ -72,5 +70,5 @@
     .imageContainer {
         height: 40vh;
     }
-    
+
 }

@@ -1,6 +1,6 @@
 .root {
   width: 100%;
-  min-height: 630px;
+  min-height: 480px;
 
   background-size: cover;
   background-repeat: no-repeat;
@@ -8,6 +8,16 @@
   position: relative;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
+
+  /* Glassmorphism effect */
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+}
+
+.root:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
 }
 
 .root .overlay {
@@ -25,28 +35,44 @@
   bottom: 75px;
   left: 55px;
   color: var(--standard-white);
-
   z-index: 10;
+
+  /* Glass effect for content area */
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding: 24px 28px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  right: 55px;
 }
 
 .title {
-  font-size: 42px;
-  line-height: 50px;
+  font-size: 20px;
+  line-height: 1.1;
   font-family: var(--standard-header);
-  margin-bottom: 24px;
+  margin-bottom: 10px;
   padding-right: 16px;
   display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .text {
-  font-weight: 500;
+  font-weight: 600;
   font-size: 14px;
   line-height: 17px;
-  border-bottom: 1px solid var(--standard-white);
+  border-bottom: 2px solid var(--standard-brand);
+  color: var(--standard-brand);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding-bottom: 2px;
 }
 
-.content a:hover {
-  color: var(--standard-gold);
+.root:hover .text {
+  border-bottom-color: #E0B000;
+  color: #E0B000;
 }
 
 .overlay {

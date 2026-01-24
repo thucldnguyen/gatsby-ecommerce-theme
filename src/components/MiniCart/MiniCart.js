@@ -1,46 +1,51 @@
 import { Link, navigate } from 'gatsby';
-import React from 'react';
+import React, { useContext } from 'react';
 
 import Button from '../Button';
 import CurrencyFormatter from '../CurrencyFormatter';
 import MiniCartItem from '../MiniCartItem';
+import { CartContext } from '../../context/CartProvider';
 
 import * as styles from './MiniCart.module.css';
 
 const MiniCart = (props) => {
-  const sampleCartItem = {
-    image: '/products/pdp1.jpeg',
-    alt: '',
-    name: 'Lambswool Crew Neck Jumper',
-    price: 220,
-    color: 'Anthracite Melange',
-    size: 'xs',
-  };
+  const { cart, cartTotal } = useContext(CartContext);
 
   return (
     <div className={styles.root}>
       <div className={styles.titleContainer}>
-        <h4>My Bag</h4>
+        <h4>Giỏ hàng của tôi</h4>
       </div>
       <div className={styles.cartItemsContainer}>
-        <MiniCartItem {...sampleCartItem} />
+        {cart.length > 0 ? (
+          cart.map((item) => (
+            <MiniCartItem key={item.productCode} {...item} />
+          ))
+        ) : (
+          <p className={styles.emptyMessage}>Giỏ hàng đang trống</p>
+        )}
       </div>
       <div className={styles.summaryContainer}>
         <div className={styles.summaryContent}>
           <div className={styles.totalContainer}>
-            <span>Total (USD)</span>
+            <span>Tổng cộng</span>
             <span>
-              <CurrencyFormatter amount={220} appendZero />
+              <CurrencyFormatter amount={cartTotal} appendZero />
             </span>
           </div>
           <span className={styles.taxNotes}>
-            Taxes and shipping will be calculated at checkout
+            Phí vận chuyển sẽ được tính khi thanh toán
           </span>
-          <Button onClick={() => navigate('/cart')} level={'primary'} fullWidth>
-            checkout
+          <Button
+            disabled={cart.length === 0}
+            onClick={() => navigate('/cart')}
+            level={'primary'}
+            fullWidth
+          >
+            Thanh toán
           </Button>
           <div className={styles.linkContainer}>
-            <Link to={'/shop'}>continue shopping</Link>
+            <Link to={'/'}>Tiếp tục mua sắm</Link>
           </div>
         </div>
       </div>

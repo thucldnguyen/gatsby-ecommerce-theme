@@ -4,19 +4,23 @@ import Icon from '../Icons/Icon';
 import * as styles from './AdjustItem.module.css';
 
 const AdjustItem = (props) => {
-  const { isTransparent } = props;
-  const [qty, setQty] = useState(1);
+  const { isTransparent, qty: propQty, setQty: propSetQty } = props;
+  const [internalQty, setInternalQty] = useState(1);
+
+  const qty = propQty !== undefined ? propQty : internalQty;
+  const setQty = propSetQty !== undefined ? propSetQty : setInternalQty;
 
   const handleOnChange = (e) => {
     const num = parseInt(e.target.value);
-    setQty(num);
+    if (!isNaN(num)) {
+      setQty(num);
+    }
   };
 
   return (
     <div
-      className={`${styles.root} ${
-        isTransparent === true ? styles.transparent : ''
-      }`}
+      className={`${styles.root} ${isTransparent === true ? styles.transparent : ''
+        }`}
     >
       <div
         className={styles.iconContainer}

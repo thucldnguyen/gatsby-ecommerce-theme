@@ -1,57 +1,50 @@
+import React, { useContext } from 'react';
 import { Link } from 'gatsby';
-import React from 'react';
 
-import Brand from '../components/Brand';
 import CartItem from '../components/CartItem';
 import Container from '../components/Container';
-import Footer from '../components/Footer';
+import Layout from '../components/Layout/Layout';
 import Icon from '../components/Icons/Icon';
 import OrderSummary from '../components/OrderSummary';
+import { CartContext } from '../context/CartProvider';
 
 import * as styles from './cart.module.css';
 
 const CartPage = (props) => {
-  const sampleCartItem = {
-    image: '/products/macca1.jpg',
-    alt: '',
-    name: 'Hạt macadamia sấy',
-    price: 120000,
-    color: 'Vàng',
-    size: 'M',
-  };
+  const { cart } = useContext(CartContext);
 
   return (
-    <div>
+    <Layout>
       <div className={styles.contentContainer}>
         <Container size={'large'} spacing={'min'}>
           <div className={styles.headerContainer}>
             <div className={styles.shoppingContainer}>
-              <Link className={styles.shopLink} to={'/shop'}>
+              <Link className={styles.shopLink} to={'/'}>
                 <Icon symbol={'arrow'}></Icon>
                 <span className={styles.continueShopping}>
-                  Continue Shopping
+                  Tiếp tục mua sắm
                 </span>
               </Link>
             </div>
-            <Brand />
-            <div className={styles.loginContainer}>
-              <Link to={'/login'}>Login</Link>
-            </div>
           </div>
           <div className={styles.summaryContainer}>
-            <h3>My Bag</h3>
+            <h3>Giỏ hàng của tôi</h3>
             <div className={styles.cartContainer}>
               <div className={styles.cartItemsContainer}>
-                <CartItem {...sampleCartItem} />
-                <CartItem {...sampleCartItem} />
+                {cart.length > 0 ? (
+                  cart.map((item) => (
+                    <CartItem key={item.productCode} {...item} />
+                  ))
+                ) : (
+                  <p>Giỏ hàng của bạn đang trống.</p>
+                )}
               </div>
               <OrderSummary />
             </div>
           </div>
         </Container>
       </div>
-      <Footer />
-    </div>
+    </Layout>
   );
 };
 

@@ -1,0 +1,1557 @@
+
+> gatsby-ecommerce-theme@1.0.0 build
+> gatsby build
+
+success compile gatsby files - 1.103s
+
+[2K[1A[2K[Gsuccess load gatsby config - 0.023s
+
+[2K[1A[2K[Gsuccess load plugins - 0.371s
+
+[2K[1A[2K[Gsuccess onPreInit - 0.003s
+
+[2K[1A[2K[Gsuccess initialize cache - 0.094s
+
+[2K[1A[2K[Gsuccess copy gatsby files - 0.069s
+
+[2K[1A[2K[Gsuccess Compiling Gatsby Functions - 0.273s
+
+[2K[1A[2K[Gsuccess onPreBootstrap - 0.286s
+
+[2K[1A[2K[Gsuccess createSchemaCustomization - 0.000s
+
+[2K[1A[2K[Gsuccess Checking for changed pages - 0.000s
+
+[2K[1A[2K[Gsuccess source and transform nodes - 0.022s
+
+[2K[1A[2K[Ginfo Writing GraphQL type definitions to
+/Users/thucnguyen/Documents/GitHub/gatsby-ecommerce-theme/.cache/schema.gql
+
+[2K[1A[2K[Gsuccess building schema - 0.115s
+
+[2K[1A[2K[Gsuccess createPages - 0.002s
+
+[2K[1A[2K[Gsuccess createPagesStatefully - 0.089s
+
+[2K[1A[2K[Ginfo Total nodes: 44, SitePage nodes: 20 (use --verbose for breakdown)
+
+[2K[1A[2K[Gsuccess Checking for changed pages - 0.000s
+
+[2K[1A[2K[Gsuccess onPreExtractQueries - 0.000s
+
+[2K[1A[2K[Gsuccess extract queries from components - 0.552s
+
+[2K[1A[2K[Gsuccess write out redirect data - 0.001s
+
+[2K[1A[2K[Gsuccess Build manifest and related icons - 0.152s
+
+[2K[1A[2K[Gsuccess onPostBootstrap - 0.154s
+
+[2K[1A[2K[Ginfo bootstrap finished - 4.900s
+
+[2K[1A[2K[Gsuccess write out requires - 0.006s
+
+[2K[1A[2K[Gwarn ./src/components/MiniCart/MiniCart.js
+Attempted import error: 'emptyMessage' is not exported from
+'./MiniCart.module.css' (imported as 'styles').
+
+[2K[1A[2K[Gwarn ./src/pages/checkout.js
+Attempted import error: 'checkoutForm' is not exported from './cart.module.css'
+(imported as 'styles').
+
+[2K[1A[2K[Gwarn ./src/pages/product/macca-oil.js
+Attempted import error: 'ProductPage' is not exported from './sample.module.css'
+ (imported as 'styles').
+
+[2K[1A[2K[Gwarn ./src/pages/product/macca.js
+Attempted import error: 'ProductPage' is not exported from './sample.module.css'
+ (imported as 'styles').
+
+[2K[1A[2K[Gwarn ./src/pages/product/mix-nuts.js
+Attempted import error: 'ProductPage' is not exported from './sample.module.css'
+ (imported as 'styles').
+
+[2K[1A[2K[Gwarn ./src/pages/product/sample.js
+Attempted import error: 'ProductPage' is not exported from './sample.module.css'
+ (imported as 'styles').
+
+[2K[1A[2K[Gwarn undefined
+chunk styles [mini-css-extract-plugin]
+Conflicting order. Following module has been added:
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/Breadcrumbs/BreadCrumbs.module.css
+despite it was not able to fulfill desired ordering with these modules:
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/Button/Button.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-product-macca-js,
+component---src-pages-product-macca-oil-js,
+component---src-pages-product-mix-nuts-js,
+component---src-pages-product-sample-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-search-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/AdjustItem/AdjustItem.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-product-macca-js,
+component---src-pages-product-macca-oil-js,
+component---src-pages-product-mix-nuts-js,
+component---src-pages-product-sample-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-search-js
+
+[2K[1A[2K[Gwarn undefined
+chunk styles [mini-css-extract-plugin]
+Conflicting order. Following module has been added:
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/BlogPreviewGrid/BlogPreviewGrid.module.css
+despite it was not able to fulfill desired ordering with these modules:
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/Button/Button.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-index-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-blog-index-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/Hero/Hero.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-index-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-blog-index-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/Container/Container.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-index-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-blog-index-js
+
+[2K[1A[2K[Gwarn undefined
+chunk styles [mini-css-extract-plugin]
+Conflicting order. Following module has been added:
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/BlogPreview/BlogPreview.module.css
+despite it was not able to fulfill desired ordering with these modules:
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/Button/Button.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-index-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-blog-index-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/Hero/Hero.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-index-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-blog-index-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/Container/Container.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-index-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-blog-index-js
+
+[2K[1A[2K[Gwarn undefined
+chunk styles [mini-css-extract-plugin]
+Conflicting order. Following module has been added:
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/Container/Container.module.css
+despite it was not able to fulfill desired ordering with these modules:
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/Button/Button.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-404-js, component---src-pages-blog-cau-chuyen-san-pham-js,
+ component---src-pages-blog-co-so-dat-chuan-js,
+component---src-pages-blog-lo-hang-202307-js,
+component---src-pages-blog-sample-js,
+component---src-pages-blog-tai-sao-chon-rio-macca-js,
+component---src-pages-product-macca-js,
+component---src-pages-product-macca-oil-js,
+component---src-pages-product-mix-nuts-js,
+component---src-pages-product-sample-js, component---src-pages-styling-js,
+component---src-pages-support-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-about-js, component---src-pages-blog-index-js,
+component---src-pages-cart-js, component---src-pages-checkout-js,
+component---src-pages-how-to-use-js, component---src-pages-index-js,
+component---src-pages-search-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/Blog/Blog.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-blog-cau-chuyen-san-pham-js,
+component---src-pages-blog-co-so-dat-chuan-js,
+component---src-pages-blog-lo-hang-202307-js,
+component---src-pages-blog-sample-js,
+component---src-pages-blog-tai-sao-chon-rio-macca-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/CartItem/CartItem.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-cart-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/RemoveItem/RemoveItem.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-cart-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-404-js, component---src-pages-about-js,
+component---src-pages-blog-cau-chuyen-san-pham-js,
+component---src-pages-blog-co-so-dat-chuan-js,
+component---src-pages-blog-index-js,
+component---src-pages-blog-lo-hang-202307-js,
+component---src-pages-blog-sample-js,
+component---src-pages-blog-tai-sao-chon-rio-macca-js,
+component---src-pages-checkout-js, component---src-pages-how-to-use-js,
+component---src-pages-index-js, component---src-pages-product-macca-js,
+component---src-pages-product-macca-oil-js,
+component---src-pages-product-mix-nuts-js,
+component---src-pages-product-sample-js, component---src-pages-search-js,
+component---src-pages-styling-js, component---src-pages-support-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/AdjustItem/AdjustItem.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-cart-js, component---src-pages-product-macca-js,
+component---src-pages-product-macca-oil-js,
+component---src-pages-product-mix-nuts-js,
+component---src-pages-product-sample-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-404-js, component---src-pages-about-js,
+component---src-pages-blog-cau-chuyen-san-pham-js,
+component---src-pages-blog-co-so-dat-chuan-js,
+component---src-pages-blog-index-js,
+component---src-pages-blog-lo-hang-202307-js,
+component---src-pages-blog-sample-js,
+component---src-pages-blog-tai-sao-chon-rio-macca-js,
+component---src-pages-checkout-js, component---src-pages-how-to-use-js,
+component---src-pages-index-js, component---src-pages-search-js,
+component---src-pages-styling-js, component---src-pages-support-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/Brand/Brand.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-how-to-use-js, component---src-pages-search-js,
+component---src-pages-support-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-404-js, component---src-pages-about-js,
+component---src-pages-blog-cau-chuyen-san-pham-js,
+component---src-pages-blog-co-so-dat-chuan-js,
+component---src-pages-blog-index-js,
+component---src-pages-blog-lo-hang-202307-js,
+component---src-pages-blog-sample-js,
+component---src-pages-blog-tai-sao-chon-rio-macca-js,
+component---src-pages-cart-js, component---src-pages-checkout-js,
+component---src-pages-index-js, component---src-pages-product-macca-js,
+component---src-pages-product-macca-oil-js,
+component---src-pages-product-mix-nuts-js,
+component---src-pages-product-sample-js, component---src-pages-styling-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/pages/about.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-how-to-use-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-about-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/Contact/Contact.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-support-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/FormInputField/FormInputField.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-support-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-404-js, component---src-pages-about-js,
+component---src-pages-blog-cau-chuyen-san-pham-js,
+component---src-pages-blog-co-so-dat-chuan-js,
+component---src-pages-blog-index-js,
+component---src-pages-blog-lo-hang-202307-js,
+component---src-pages-blog-sample-js,
+component---src-pages-blog-tai-sao-chon-rio-macca-js,
+component---src-pages-cart-js, component---src-pages-checkout-js,
+component---src-pages-how-to-use-js, component---src-pages-index-js,
+component---src-pages-product-macca-js,
+component---src-pages-product-macca-oil-js,
+component---src-pages-product-mix-nuts-js,
+component---src-pages-product-sample-js, component---src-pages-search-js,
+component---src-pages-styling-js
+
+[2K[1A[2K[Gwarn undefined
+chunk styles [mini-css-extract-plugin]
+Conflicting order. Following module has been added:
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/Button/Button.module.css
+despite it was not able to fulfill desired ordering with these modules:
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/FormInputField/FormInputField.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-cart-js, component---src-pages-checkout-js,
+component---src-pages-how-to-use-js, component---src-pages-search-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-404-js, component---src-pages-about-js,
+component---src-pages-blog-cau-chuyen-san-pham-js,
+component---src-pages-blog-co-so-dat-chuan-js,
+component---src-pages-blog-index-js,
+component---src-pages-blog-lo-hang-202307-js,
+component---src-pages-blog-sample-js,
+component---src-pages-blog-tai-sao-chon-rio-macca-js,
+component---src-pages-index-js, component---src-pages-product-macca-js,
+component---src-pages-product-macca-oil-js,
+component---src-pages-product-mix-nuts-js,
+component---src-pages-product-sample-js, component---src-pages-styling-js,
+component---src-pages-support-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/ExpandedMenu/ExpandedMenu.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-cart-js, component---src-pages-checkout-js,
+component---src-pages-how-to-use-js, component---src-pages-search-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-404-js, component---src-pages-about-js,
+component---src-pages-blog-cau-chuyen-san-pham-js,
+component---src-pages-blog-co-so-dat-chuan-js,
+component---src-pages-blog-index-js,
+component---src-pages-blog-lo-hang-202307-js,
+component---src-pages-blog-sample-js,
+component---src-pages-blog-tai-sao-chon-rio-macca-js,
+component---src-pages-index-js, component---src-pages-product-macca-js,
+component---src-pages-product-macca-oil-js,
+component---src-pages-product-mix-nuts-js,
+component---src-pages-product-sample-js, component---src-pages-styling-js,
+component---src-pages-support-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/Drawer/Drawer.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-cart-js, component---src-pages-checkout-js,
+component---src-pages-how-to-use-js, component---src-pages-search-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-404-js, component---src-pages-about-js,
+component---src-pages-blog-cau-chuyen-san-pham-js,
+component---src-pages-blog-co-so-dat-chuan-js,
+component---src-pages-blog-index-js,
+component---src-pages-blog-lo-hang-202307-js,
+component---src-pages-blog-sample-js,
+component---src-pages-blog-tai-sao-chon-rio-macca-js,
+component---src-pages-index-js, component---src-pages-product-macca-js,
+component---src-pages-product-macca-oil-js,
+component---src-pages-product-mix-nuts-js,
+component---src-pages-product-sample-js, component---src-pages-styling-js,
+component---src-pages-support-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/Brand/Brand.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-cart-js, component---src-pages-checkout-js,
+component---src-pages-how-to-use-js, component---src-pages-search-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-404-js, component---src-pages-about-js,
+component---src-pages-blog-cau-chuyen-san-pham-js,
+component---src-pages-blog-co-so-dat-chuan-js,
+component---src-pages-blog-index-js,
+component---src-pages-blog-lo-hang-202307-js,
+component---src-pages-blog-sample-js,
+component---src-pages-blog-tai-sao-chon-rio-macca-js,
+component---src-pages-index-js, component---src-pages-product-macca-js,
+component---src-pages-product-macca-oil-js,
+component---src-pages-product-mix-nuts-js,
+component---src-pages-product-sample-js, component---src-pages-styling-js,
+component---src-pages-support-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/CartItem/CartItem.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-cart-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/RemoveItem/RemoveItem.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-cart-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-404-js, component---src-pages-about-js,
+component---src-pages-blog-cau-chuyen-san-pham-js,
+component---src-pages-blog-co-so-dat-chuan-js,
+component---src-pages-blog-index-js,
+component---src-pages-blog-lo-hang-202307-js,
+component---src-pages-blog-sample-js,
+component---src-pages-blog-tai-sao-chon-rio-macca-js,
+component---src-pages-checkout-js, component---src-pages-how-to-use-js,
+component---src-pages-index-js, component---src-pages-product-macca-js,
+component---src-pages-product-macca-oil-js,
+component---src-pages-product-mix-nuts-js,
+component---src-pages-product-sample-js, component---src-pages-search-js,
+component---src-pages-styling-js, component---src-pages-support-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/AdjustItem/AdjustItem.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-cart-js, component---src-pages-product-macca-js,
+component---src-pages-product-macca-oil-js,
+component---src-pages-product-mix-nuts-js,
+component---src-pages-product-sample-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-404-js, component---src-pages-about-js,
+component---src-pages-blog-cau-chuyen-san-pham-js,
+component---src-pages-blog-co-so-dat-chuan-js,
+component---src-pages-blog-index-js,
+component---src-pages-blog-lo-hang-202307-js,
+component---src-pages-blog-sample-js,
+component---src-pages-blog-tai-sao-chon-rio-macca-js,
+component---src-pages-checkout-js, component---src-pages-how-to-use-js,
+component---src-pages-index-js, component---src-pages-search-js,
+component---src-pages-styling-js, component---src-pages-support-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/pages/about.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-how-to-use-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-about-js
+
+[2K[1A[2K[Gwarn undefined
+chunk styles [mini-css-extract-plugin]
+Conflicting order. Following module has been added:
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/AdjustItem/AdjustItem.module.css
+despite it was not able to fulfill desired ordering with these modules:
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/ExpandedMenu/ExpandedMenu.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-404-js, component---src-pages-about-js,
+component---src-pages-blog-cau-chuyen-san-pham-js,
+component---src-pages-blog-co-so-dat-chuan-js,
+component---src-pages-blog-index-js,
+component---src-pages-blog-lo-hang-202307-js,
+component---src-pages-blog-sample-js,
+component---src-pages-blog-tai-sao-chon-rio-macca-js,
+component---src-pages-checkout-js, component---src-pages-how-to-use-js,
+component---src-pages-index-js, component---src-pages-search-js,
+component---src-pages-styling-js, component---src-pages-support-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-cart-js, component---src-pages-product-macca-js,
+component---src-pages-product-macca-oil-js,
+component---src-pages-product-mix-nuts-js,
+component---src-pages-product-sample-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/Drawer/Drawer.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-404-js, component---src-pages-about-js,
+component---src-pages-blog-cau-chuyen-san-pham-js,
+component---src-pages-blog-co-so-dat-chuan-js,
+component---src-pages-blog-index-js,
+component---src-pages-blog-lo-hang-202307-js,
+component---src-pages-blog-sample-js,
+component---src-pages-blog-tai-sao-chon-rio-macca-js,
+component---src-pages-checkout-js, component---src-pages-how-to-use-js,
+component---src-pages-index-js, component---src-pages-search-js,
+component---src-pages-styling-js, component---src-pages-support-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-cart-js, component---src-pages-product-macca-js,
+component---src-pages-product-macca-oil-js,
+component---src-pages-product-mix-nuts-js,
+component---src-pages-product-sample-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/Brand/Brand.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-404-js, component---src-pages-about-js,
+component---src-pages-blog-cau-chuyen-san-pham-js,
+component---src-pages-blog-co-so-dat-chuan-js,
+component---src-pages-blog-index-js,
+component---src-pages-blog-lo-hang-202307-js,
+component---src-pages-blog-sample-js,
+component---src-pages-blog-tai-sao-chon-rio-macca-js,
+component---src-pages-checkout-js, component---src-pages-how-to-use-js,
+component---src-pages-index-js, component---src-pages-search-js,
+component---src-pages-styling-js, component---src-pages-support-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-cart-js, component---src-pages-product-macca-js,
+component---src-pages-product-macca-oil-js,
+component---src-pages-product-mix-nuts-js,
+component---src-pages-product-sample-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/FormInputField/FormInputField.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-404-js, component---src-pages-about-js,
+component---src-pages-blog-cau-chuyen-san-pham-js,
+component---src-pages-blog-co-so-dat-chuan-js,
+component---src-pages-blog-index-js,
+component---src-pages-blog-lo-hang-202307-js,
+component---src-pages-blog-sample-js,
+component---src-pages-blog-tai-sao-chon-rio-macca-js,
+component---src-pages-checkout-js, component---src-pages-how-to-use-js,
+component---src-pages-index-js, component---src-pages-search-js,
+component---src-pages-styling-js, component---src-pages-support-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-cart-js, component---src-pages-product-macca-js,
+component---src-pages-product-macca-oil-js,
+component---src-pages-product-mix-nuts-js,
+component---src-pages-product-sample-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/ThemeLink/ThemeLink.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-about-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-blog-index-js, component---src-pages-how-to-use-js,
+component---src-pages-support-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/pages/about.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-how-to-use-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-about-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/Contact/Contact.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-support-js
+
+[2K[1A[2K[Gwarn undefined
+chunk styles [mini-css-extract-plugin]
+Conflicting order. Following module has been added:
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/Brand/Brand.module.css
+despite it was not able to fulfill desired ordering with these modules:
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/FormInputField/FormInputField.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-404-js, component---src-pages-support-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-about-js,
+component---src-pages-blog-cau-chuyen-san-pham-js,
+component---src-pages-blog-co-so-dat-chuan-js,
+component---src-pages-blog-index-js,
+component---src-pages-blog-lo-hang-202307-js,
+component---src-pages-blog-sample-js,
+component---src-pages-blog-tai-sao-chon-rio-macca-js,
+component---src-pages-cart-js, component---src-pages-checkout-js,
+component---src-pages-how-to-use-js, component---src-pages-index-js,
+component---src-pages-product-macca-js,
+component---src-pages-product-macca-oil-js,
+component---src-pages-product-mix-nuts-js,
+component---src-pages-product-sample-js, component---src-pages-search-js,
+component---src-pages-styling-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/ThemeLink/ThemeLink.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-about-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-blog-index-js, component---src-pages-how-to-use-js,
+component---src-pages-support-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/CartItem/CartItem.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-cart-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/RemoveItem/RemoveItem.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-cart-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-404-js, component---src-pages-about-js,
+component---src-pages-blog-cau-chuyen-san-pham-js,
+component---src-pages-blog-co-so-dat-chuan-js,
+component---src-pages-blog-index-js,
+component---src-pages-blog-lo-hang-202307-js,
+component---src-pages-blog-sample-js,
+component---src-pages-blog-tai-sao-chon-rio-macca-js,
+component---src-pages-checkout-js, component---src-pages-how-to-use-js,
+component---src-pages-index-js, component---src-pages-product-macca-js,
+component---src-pages-product-macca-oil-js,
+component---src-pages-product-mix-nuts-js,
+component---src-pages-product-sample-js, component---src-pages-search-js,
+component---src-pages-styling-js, component---src-pages-support-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/pages/about.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-how-to-use-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-about-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/Gallery/Gallery.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-product-macca-js,
+component---src-pages-product-macca-oil-js,
+component---src-pages-product-mix-nuts-js,
+component---src-pages-product-sample-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/Slider/Slider.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-product-macca-js,
+component---src-pages-product-macca-oil-js,
+component---src-pages-product-mix-nuts-js,
+component---src-pages-product-sample-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-index-js, component---src-pages-search-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/Contact/Contact.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-support-js
+
+[2K[1A[2K[Gwarn undefined
+chunk styles [mini-css-extract-plugin]
+Conflicting order. Following module has been added:
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/FormInputField/FormInputField.module.css
+despite it was not able to fulfill desired ordering with these modules:
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/ExpandedMenu/ExpandedMenu.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-about-js,
+component---src-pages-blog-cau-chuyen-san-pham-js,
+component---src-pages-blog-co-so-dat-chuan-js,
+component---src-pages-blog-index-js,
+component---src-pages-blog-lo-hang-202307-js,
+component---src-pages-blog-sample-js,
+component---src-pages-blog-tai-sao-chon-rio-macca-js,
+component---src-pages-cart-js, component---src-pages-checkout-js,
+component---src-pages-how-to-use-js, component---src-pages-index-js,
+component---src-pages-product-macca-js,
+component---src-pages-product-macca-oil-js,
+component---src-pages-product-mix-nuts-js,
+component---src-pages-product-sample-js, component---src-pages-search-js,
+component---src-pages-styling-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-404-js, component---src-pages-support-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/Drawer/Drawer.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-about-js,
+component---src-pages-blog-cau-chuyen-san-pham-js,
+component---src-pages-blog-co-so-dat-chuan-js,
+component---src-pages-blog-index-js,
+component---src-pages-blog-lo-hang-202307-js,
+component---src-pages-blog-sample-js,
+component---src-pages-blog-tai-sao-chon-rio-macca-js,
+component---src-pages-cart-js, component---src-pages-checkout-js,
+component---src-pages-how-to-use-js, component---src-pages-index-js,
+component---src-pages-product-macca-js,
+component---src-pages-product-macca-oil-js,
+component---src-pages-product-mix-nuts-js,
+component---src-pages-product-sample-js, component---src-pages-search-js,
+component---src-pages-styling-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-404-js, component---src-pages-support-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/ThemeLink/ThemeLink.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-about-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-blog-index-js, component---src-pages-how-to-use-js,
+component---src-pages-support-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/CartItem/CartItem.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-cart-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/RemoveItem/RemoveItem.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-cart-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-404-js, component---src-pages-about-js,
+component---src-pages-blog-cau-chuyen-san-pham-js,
+component---src-pages-blog-co-so-dat-chuan-js,
+component---src-pages-blog-index-js,
+component---src-pages-blog-lo-hang-202307-js,
+component---src-pages-blog-sample-js,
+component---src-pages-blog-tai-sao-chon-rio-macca-js,
+component---src-pages-checkout-js, component---src-pages-how-to-use-js,
+component---src-pages-index-js, component---src-pages-product-macca-js,
+component---src-pages-product-macca-oil-js,
+component---src-pages-product-mix-nuts-js,
+component---src-pages-product-sample-js, component---src-pages-search-js,
+component---src-pages-styling-js, component---src-pages-support-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/pages/about.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-how-to-use-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-about-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/Gallery/Gallery.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-product-macca-js,
+component---src-pages-product-macca-oil-js,
+component---src-pages-product-mix-nuts-js,
+component---src-pages-product-sample-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/Slider/Slider.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-product-macca-js,
+component---src-pages-product-macca-oil-js,
+component---src-pages-product-mix-nuts-js,
+component---src-pages-product-sample-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-index-js, component---src-pages-search-js
+
+[2K[1A[2K[Gwarn undefined
+chunk styles [mini-css-extract-plugin]
+Conflicting order. Following module has been added:
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/Drawer/Drawer.module.css
+despite it was not able to fulfill desired ordering with these modules:
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/ThemeLink/ThemeLink.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-about-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-blog-index-js, component---src-pages-how-to-use-js,
+component---src-pages-support-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/CartItem/CartItem.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-cart-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/RemoveItem/RemoveItem.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-cart-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-404-js, component---src-pages-about-js,
+component---src-pages-blog-cau-chuyen-san-pham-js,
+component---src-pages-blog-co-so-dat-chuan-js,
+component---src-pages-blog-index-js,
+component---src-pages-blog-lo-hang-202307-js,
+component---src-pages-blog-sample-js,
+component---src-pages-blog-tai-sao-chon-rio-macca-js,
+component---src-pages-checkout-js, component---src-pages-how-to-use-js,
+component---src-pages-index-js, component---src-pages-product-macca-js,
+component---src-pages-product-macca-oil-js,
+component---src-pages-product-mix-nuts-js,
+component---src-pages-product-sample-js, component---src-pages-search-js,
+component---src-pages-styling-js, component---src-pages-support-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/pages/about.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-how-to-use-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-about-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/Gallery/Gallery.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-product-macca-js,
+component---src-pages-product-macca-oil-js,
+component---src-pages-product-mix-nuts-js,
+component---src-pages-product-sample-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/Slider/Slider.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-product-macca-js,
+component---src-pages-product-macca-oil-js,
+component---src-pages-product-mix-nuts-js,
+component---src-pages-product-sample-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-index-js, component---src-pages-search-js
+
+[2K[1A[2K[Gwarn undefined
+chunk styles [mini-css-extract-plugin]
+Conflicting order. Following module has been added:
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/RemoveItem/RemoveItem.module.css
+despite it was not able to fulfill desired ordering with these modules:
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/ExpandedMenu/ExpandedMenu.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-404-js, component---src-pages-about-js,
+component---src-pages-blog-cau-chuyen-san-pham-js,
+component---src-pages-blog-co-so-dat-chuan-js,
+component---src-pages-blog-index-js,
+component---src-pages-blog-lo-hang-202307-js,
+component---src-pages-blog-sample-js,
+component---src-pages-blog-tai-sao-chon-rio-macca-js,
+component---src-pages-checkout-js, component---src-pages-how-to-use-js,
+component---src-pages-index-js, component---src-pages-product-macca-js,
+component---src-pages-product-macca-oil-js,
+component---src-pages-product-mix-nuts-js,
+component---src-pages-product-sample-js, component---src-pages-search-js,
+component---src-pages-styling-js, component---src-pages-support-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-cart-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/ThemeLink/ThemeLink.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-about-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-blog-index-js, component---src-pages-how-to-use-js,
+component---src-pages-support-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/pages/about.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-how-to-use-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-about-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/Gallery/Gallery.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-product-macca-js,
+component---src-pages-product-macca-oil-js,
+component---src-pages-product-mix-nuts-js,
+component---src-pages-product-sample-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/Slider/Slider.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-product-macca-js,
+component---src-pages-product-macca-oil-js,
+component---src-pages-product-mix-nuts-js,
+component---src-pages-product-sample-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-index-js, component---src-pages-search-js
+
+[2K[1A[2K[Gwarn undefined
+chunk styles [mini-css-extract-plugin]
+Conflicting order. Following module has been added:
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/ExpandedMenu/ExpandedMenu.module.css
+despite it was not able to fulfill desired ordering with these modules:
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/ThemeLink/ThemeLink.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-about-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-blog-index-js, component---src-pages-how-to-use-js,
+component---src-pages-support-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/pages/about.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-how-to-use-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-about-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/Gallery/Gallery.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-product-macca-js,
+component---src-pages-product-macca-oil-js,
+component---src-pages-product-mix-nuts-js,
+component---src-pages-product-sample-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/Slider/Slider.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-product-macca-js,
+component---src-pages-product-macca-oil-js,
+component---src-pages-product-mix-nuts-js,
+component---src-pages-product-sample-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-index-js, component---src-pages-search-js
+
+[2K[1A[2K[Gwarn undefined
+chunk styles [mini-css-extract-plugin]
+Conflicting order. Following module has been added:
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/MiniCartItem/MiniCartItem.module.css
+despite it was not able to fulfill desired ordering with these modules:
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/ThemeLink/ThemeLink.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-about-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-blog-index-js, component---src-pages-how-to-use-js,
+component---src-pages-support-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/pages/about.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-how-to-use-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-about-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/Gallery/Gallery.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-product-macca-js,
+component---src-pages-product-macca-oil-js,
+component---src-pages-product-mix-nuts-js,
+component---src-pages-product-sample-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/Slider/Slider.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-product-macca-js,
+component---src-pages-product-macca-oil-js,
+component---src-pages-product-mix-nuts-js,
+component---src-pages-product-sample-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-index-js, component---src-pages-search-js
+
+[2K[1A[2K[Gwarn undefined
+chunk styles [mini-css-extract-plugin]
+Conflicting order. Following module has been added:
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/MiniCart/MiniCart.module.css
+despite it was not able to fulfill desired ordering with these modules:
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/ThemeLink/ThemeLink.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-about-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-blog-index-js, component---src-pages-how-to-use-js,
+component---src-pages-support-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/pages/about.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-how-to-use-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-about-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/Gallery/Gallery.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-product-macca-js,
+component---src-pages-product-macca-oil-js,
+component---src-pages-product-mix-nuts-js,
+component---src-pages-product-sample-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/Slider/Slider.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-product-macca-js,
+component---src-pages-product-macca-oil-js,
+component---src-pages-product-mix-nuts-js,
+component---src-pages-product-sample-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-index-js, component---src-pages-search-js
+
+[2K[1A[2K[Gwarn undefined
+chunk styles [mini-css-extract-plugin]
+Conflicting order. Following module has been added:
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/MobileNavigation/MobileNavigation.module.css
+despite it was not able to fulfill desired ordering with these modules:
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/ThemeLink/ThemeLink.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-about-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-blog-index-js, component---src-pages-how-to-use-js,
+component---src-pages-support-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/pages/about.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-how-to-use-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-about-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/Gallery/Gallery.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-product-macca-js,
+component---src-pages-product-macca-oil-js,
+component---src-pages-product-mix-nuts-js,
+component---src-pages-product-sample-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/Slider/Slider.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-product-macca-js,
+component---src-pages-product-macca-oil-js,
+component---src-pages-product-mix-nuts-js,
+component---src-pages-product-sample-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-index-js, component---src-pages-search-js
+
+[2K[1A[2K[Gwarn undefined
+chunk styles [mini-css-extract-plugin]
+Conflicting order. Following module has been added:
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/Header/Header.module.css
+despite it was not able to fulfill desired ordering with these modules:
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/ThemeLink/ThemeLink.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-about-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-blog-index-js, component---src-pages-how-to-use-js,
+component---src-pages-support-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/pages/about.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-how-to-use-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-about-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/Gallery/Gallery.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-product-macca-js,
+component---src-pages-product-macca-oil-js,
+component---src-pages-product-mix-nuts-js,
+component---src-pages-product-sample-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/Slider/Slider.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-product-macca-js,
+component---src-pages-product-macca-oil-js,
+component---src-pages-product-mix-nuts-js,
+component---src-pages-product-sample-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-index-js, component---src-pages-search-js
+
+[2K[1A[2K[Gwarn undefined
+chunk styles [mini-css-extract-plugin]
+Conflicting order. Following module has been added:
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/Accordion/Accordion.module.css
+despite it was not able to fulfill desired ordering with these modules:
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/ThemeLink/ThemeLink.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-about-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-blog-index-js, component---src-pages-how-to-use-js,
+component---src-pages-support-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/pages/about.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-how-to-use-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-about-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/Gallery/Gallery.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-product-macca-js,
+component---src-pages-product-macca-oil-js,
+component---src-pages-product-mix-nuts-js,
+component---src-pages-product-sample-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/Slider/Slider.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-product-macca-js,
+component---src-pages-product-macca-oil-js,
+component---src-pages-product-mix-nuts-js,
+component---src-pages-product-sample-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-index-js, component---src-pages-search-js
+
+[2K[1A[2K[Gwarn undefined
+chunk styles [mini-css-extract-plugin]
+Conflicting order. Following module has been added:
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/Dropdown/Dropdown.module.css
+despite it was not able to fulfill desired ordering with these modules:
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/ThemeLink/ThemeLink.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-about-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-blog-index-js, component---src-pages-how-to-use-js,
+component---src-pages-support-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/pages/about.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-how-to-use-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-about-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/Gallery/Gallery.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-product-macca-js,
+component---src-pages-product-macca-oil-js,
+component---src-pages-product-mix-nuts-js,
+component---src-pages-product-sample-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/Slider/Slider.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-product-macca-js,
+component---src-pages-product-macca-oil-js,
+component---src-pages-product-mix-nuts-js,
+component---src-pages-product-sample-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-index-js, component---src-pages-search-js
+
+[2K[1A[2K[Gwarn undefined
+chunk styles [mini-css-extract-plugin]
+Conflicting order. Following module has been added:
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/Footer/Footer.module.css
+despite it was not able to fulfill desired ordering with these modules:
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/ThemeLink/ThemeLink.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-about-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-blog-index-js, component---src-pages-how-to-use-js,
+component---src-pages-support-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/pages/about.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-how-to-use-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-about-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/Gallery/Gallery.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-product-macca-js,
+component---src-pages-product-macca-oil-js,
+component---src-pages-product-mix-nuts-js,
+component---src-pages-product-sample-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/Slider/Slider.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-product-macca-js,
+component---src-pages-product-macca-oil-js,
+component---src-pages-product-mix-nuts-js,
+component---src-pages-product-sample-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-index-js, component---src-pages-search-js
+
+[2K[1A[2K[Gwarn undefined
+chunk styles [mini-css-extract-plugin]
+Conflicting order. Following module has been added:
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/Layout/Layout.module.css
+despite it was not able to fulfill desired ordering with these modules:
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/ThemeLink/ThemeLink.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-about-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-blog-index-js, component---src-pages-how-to-use-js,
+component---src-pages-support-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/pages/about.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-how-to-use-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-about-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/Gallery/Gallery.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-product-macca-js,
+component---src-pages-product-macca-oil-js,
+component---src-pages-product-mix-nuts-js,
+component---src-pages-product-sample-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/Slider/Slider.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-product-macca-js,
+component---src-pages-product-macca-oil-js,
+component---src-pages-product-mix-nuts-js,
+component---src-pages-product-sample-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-index-js, component---src-pages-search-js
+
+[2K[1A[2K[Gwarn undefined
+chunk styles [mini-css-extract-plugin]
+Conflicting order. Following module has been added:
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[1].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[1].use[2]
+!./src/components/Layout/Globals.css
+despite it was not able to fulfill desired ordering with these modules:
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/ThemeLink/ThemeLink.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-about-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-blog-index-js, component---src-pages-how-to-use-js,
+component---src-pages-support-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/pages/about.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-how-to-use-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-about-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/Gallery/Gallery.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-product-macca-js,
+component---src-pages-product-macca-oil-js,
+component---src-pages-product-mix-nuts-js,
+component---src-pages-product-sample-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/Slider/Slider.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-product-macca-js,
+component---src-pages-product-macca-oil-js,
+component---src-pages-product-mix-nuts-js,
+component---src-pages-product-sample-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-index-js, component---src-pages-search-js
+
+[2K[1A[2K[Gwarn undefined
+chunk styles [mini-css-extract-plugin]
+Conflicting order. Following module has been added:
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[1].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[1].use[2]
+!./src/components/Layout/Globals.css (1)
+despite it was not able to fulfill desired ordering with these modules:
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/ThemeLink/ThemeLink.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-about-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-blog-index-js, component---src-pages-how-to-use-js,
+component---src-pages-support-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/pages/about.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-how-to-use-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-about-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/Gallery/Gallery.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-product-macca-js,
+component---src-pages-product-macca-oil-js,
+component---src-pages-product-mix-nuts-js,
+component---src-pages-product-sample-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/Slider/Slider.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-product-macca-js,
+component---src-pages-product-macca-oil-js,
+component---src-pages-product-mix-nuts-js,
+component---src-pages-product-sample-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-index-js, component---src-pages-search-js
+
+[2K[1A[2K[Gwarn undefined
+chunk styles [mini-css-extract-plugin]
+Conflicting order. Following module has been added:
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[1].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[1].use[2]
+!./src/components/Layout/Globals.css (2)
+despite it was not able to fulfill desired ordering with these modules:
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/ThemeLink/ThemeLink.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-about-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-blog-index-js, component---src-pages-how-to-use-js,
+component---src-pages-support-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/pages/about.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-how-to-use-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-about-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/Gallery/Gallery.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-product-macca-js,
+component---src-pages-product-macca-oil-js,
+component---src-pages-product-mix-nuts-js,
+component---src-pages-product-sample-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/Slider/Slider.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-product-macca-js,
+component---src-pages-product-macca-oil-js,
+component---src-pages-product-mix-nuts-js,
+component---src-pages-product-sample-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-index-js, component---src-pages-search-js
+
+[2K[1A[2K[Gwarn undefined
+chunk styles [mini-css-extract-plugin]
+Conflicting order. Following module has been added:
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/ThemeLink/ThemeLink.module.css
+despite it was not able to fulfill desired ordering with these modules:
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[1].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[1].use[2]
+!./src/components/Layout/Globals.css (4)
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-blog-index-js, component---src-pages-how-to-use-js,
+component---src-pages-support-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-about-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[1].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[1].use[2]
+!./src/components/Layout/Globals.css (3)
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-blog-index-js, component---src-pages-how-to-use-js,
+component---src-pages-support-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-about-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/pages/about.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-how-to-use-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-about-js
+
+[2K[1A[2K[Gwarn undefined
+chunk styles [mini-css-extract-plugin]
+Conflicting order. Following module has been added:
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/pages/about.module.css
+despite it was not able to fulfill desired ordering with these modules:
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[1].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[1].use[2]
+!./src/components/Layout/Globals.css (4)
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-about-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-how-to-use-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[1].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[1].use[2]
+!./src/components/Layout/Globals.css (3)
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-about-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-how-to-use-js
+
+[2K[1A[2K[Gwarn undefined
+chunk styles [mini-css-extract-plugin]
+Conflicting order. Following module has been added:
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[1].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[1].use[2]
+!./src/components/Layout/Globals.css (3)
+despite it was not able to fulfill desired ordering with these modules:
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/Gallery/Gallery.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-product-macca-js,
+component---src-pages-product-macca-oil-js,
+component---src-pages-product-mix-nuts-js,
+component---src-pages-product-sample-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/Slider/Slider.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-product-macca-js,
+component---src-pages-product-macca-oil-js,
+component---src-pages-product-mix-nuts-js,
+component---src-pages-product-sample-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-index-js, component---src-pages-search-js
+
+[2K[1A[2K[Gwarn undefined
+chunk styles [mini-css-extract-plugin]
+Conflicting order. Following module has been added:
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[1].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[1].use[2]
+!./src/components/Layout/Globals.css (4)
+despite it was not able to fulfill desired ordering with these modules:
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/Gallery/Gallery.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-product-macca-js,
+component---src-pages-product-macca-oil-js,
+component---src-pages-product-mix-nuts-js,
+component---src-pages-product-sample-js
+ * css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1
+]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]
+!./src/components/Slider/Slider.module.css
+   - couldn't fulfill desired order of chunk group(s)
+component---src-pages-product-macca-js,
+component---src-pages-product-macca-oil-js,
+component---src-pages-product-mix-nuts-js,
+component---src-pages-product-sample-js
+   - while fulfilling desired order of chunk group(s)
+component---src-pages-index-js, component---src-pages-search-js
+
+[2K[1A[2K[Gsuccess Building production JavaScript and CSS bundles - 9.840s
+
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'mini-css-extract-plugin /Users/thucnguyen/Documents/GitHub/gatsby-ecommerce-theme/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1]!/Users/thucnguyen/Documents/GitHub/gatsby-ecommerce-theme/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]!/Users/thucnguyen/Documents/GitHub/gatsby-ecommerce-theme/src/components/Header/Header.module.css|0|Compilation/modules|/Users/thucnguyen/Documents/GitHub/gatsby-ecommerce-theme/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1]!/Users/thucnguyen/Documents/GitHub/gatsby-ecommerce-theme/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]!/Users/thucnguyen/Documents/GitHub/gatsby-ecommerce-theme/src/components/Header/Header.module.css': No serializer registered for Warning
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> Array { 1 items } -> webpack/lib/ModuleWarning -> Warning
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'mini-css-extract-plugin /Users/thucnguyen/Documents/GitHub/gatsby-ecommerce-theme/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1]!/Users/thucnguyen/Documents/GitHub/gatsby-ecommerce-theme/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]!/Users/thucnguyen/Documents/GitHub/gatsby-ecommerce-theme/src/components/Footer/Footer.module.css|0|Compilation/modules|/Users/thucnguyen/Documents/GitHub/gatsby-ecommerce-theme/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1]!/Users/thucnguyen/Documents/GitHub/gatsby-ecommerce-theme/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[2]!/Users/thucnguyen/Documents/GitHub/gatsby-ecommerce-theme/src/components/Footer/Footer.module.css': No serializer registered for Warning
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> Array { 1 items } -> webpack/lib/ModuleWarning -> Warning
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|/Users/thucnguyen/Documents/GitHub/gatsby-ecommerce-theme/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[0]!/Users/thucnguyen/Documents/GitHub/gatsby-ecommerce-theme/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1]!/Users/thucnguyen/Documents/GitHub/gatsby-ecommerce-theme/src/components/Header/Header.module.css': No serializer registered for Warning
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> Array { 1 items } -> webpack/lib/ModuleWarning -> Warning
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|/Users/thucnguyen/Documents/GitHub/gatsby-ecommerce-theme/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[0]!/Users/thucnguyen/Documents/GitHub/gatsby-ecommerce-theme/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[8].oneOf[0].use[1]!/Users/thucnguyen/Documents/GitHub/gatsby-ecommerce-theme/src/components/Footer/Footer.module.css': No serializer registered for Warning
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> Array { 1 items } -> webpack/lib/ModuleWarning -> Warning
+[2K[1A[2K[Gsuccess Building HTML renderer - 9.147s
+
+[2K[1A[2K[Gsuccess Execute page configs - 0.040s
+
+[2K[1A[2K[Gsuccess Caching Webpack compilations - 0.000s
+
+[2K[1A[2K[Gsuccess run queries in workers - 0.068s - 20/20 292.39/s
+
+[2K[1A[2K[Gsuccess Merge worker state - 0.002s
+
+[2K[1A[2K[Gsuccess Rewriting compilation hashes - 0.038s
+
+[2K[1A[2K[Gsuccess Writing page-data.json and slice-data.json files to public directory -
+0.041s - 20/20 485.65/s
+
+[2K[1A[2K[G
+ ERROR  UNKNOWN
+
+Truncated page data information for the failed page "/404/": {
+  "errors": {},
+  "path": "/404/",
+  "slicesMap": {},
+  "pageContext": {}
+}
+
+
+[2K[1A[2K[Gfailed Building static HTML for pages - 2.574s
+
+[2K[1A[2K[G
+ ERROR #95313  HTML.COMPILATION
+
+Building static HTML failed for path "/404/"
+
+See our docs page for more info on this error: https://gatsby.dev/debug-html
+
+
+[2K[1A[2K[G
+  18 |
+  19 | const Header = (prop) => {
+> 20 |   const { cartCount } = React.useContext(CartContext);
+     |           ^
+  21 |   const [showMiniCart, setShowMiniCart] = useState(false);
+  22 |   const [mobileMenu, setMobileMenu] = useState(false);
+  23 |   const [showMenu, setShowMenu] = useState(true);
+
+[0m
+[0m  [0m[97m[41mWebpackError[0m[37m[41m:[0m[37m[41m [0m[97m[41mTypeError: Cannot destructure property 'cartCount' of 'index_js_[0m
+  [0m[97m[41mdefault(...).useContext(...)' as it is undefined.[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mHeader.js[0m[90m:[0m[93m20[0m[37m [0m
+[0m  [0m  [0m[90mgatsby-ecommerce-theme/src/components/Header/Header.js:20:11[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mindex.js[0m[90m:[0m[93m37[0m[37m [0m
+[0m  [0m  [0m[90m[gatsby-ecommerce-theme]/[node-fetch]/lib/index.js:37:1[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mindex.js[0m[90m:[0m[93m39[0m[37m [0m
+[0m  [0m  [0m[90m[gatsby-ecommerce-theme]/[node-fetch]/lib/index.js:39:1[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mAdjustItem.module.css[0m[90m:[0m[93m3[0m[37m [0m
+[0m  [0m  [0m[90mgatsby-ecommerce-theme/src/components/AdjustItem/AdjustItem.module.css:3:8[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mAdjustItem.module.css[0m[90m:[0m[93m6[0m[37m [0m
+[0m  [0m  [0m[90mgatsby-ecommerce-theme/src/components/AdjustItem/AdjustItem.module.css:6:8[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mAdjustItem.module.css[0m[90m:[0m[93m5[0m[37m [0m
+[0m  [0m  [0m[90mgatsby-ecommerce-theme/src/components/AdjustItem/AdjustItem.module.css:5:8[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mAdjustItem.module.css[0m[90m:[0m[93m3[0m[37m [0m
+[0m  [0m  [0m[90mgatsby-ecommerce-theme/src/components/AdjustItem/AdjustItem.module.css:3:8[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mindex.js[0m[90m:[0m[93m40[0m[37m [0m
+[0m  [0m  [0m[90m[gatsby-ecommerce-theme]/[node-fetch]/lib/index.js:40:7[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mAdjustItem.module.css[0m[90m:[0m[93m3[0m[37m [0m
+[0m  [0m  [0m[90mgatsby-ecommerce-theme/src/components/AdjustItem/AdjustItem.module.css:3:8[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mindex.js[0m[90m:[0m[93m39[0m[37m [0m
+[0m  [0m  [0m[90m[gatsby-ecommerce-theme]/[node-fetch]/lib/index.js:39:1[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mAdjustItem.module.css[0m[90m:[0m[93m3[0m[37m [0m
+[0m  [0m  [0m[90mgatsby-ecommerce-theme/src/components/AdjustItem/AdjustItem.module.css:3:8[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mindex.js[0m[90m:[0m[93m39[0m[37m [0m
+[0m  [0m  [0m[90m[gatsby-ecommerce-theme]/[node-fetch]/lib/index.js:39:1[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mAdjustItem.module.css[0m[90m:[0m[93m3[0m[37m [0m
+[0m  [0m  [0m[90mgatsby-ecommerce-theme/src/components/AdjustItem/AdjustItem.module.css:3:8[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mindex.js[0m[90m:[0m[93m37[0m[37m [0m
+[0m  [0m  [0m[90m[gatsby-ecommerce-theme]/[node-fetch]/lib/index.js:37:1[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mindex.js[0m[90m:[0m[93m39[0m[37m [0m
+[0m  [0m  [0m[90m[gatsby-ecommerce-theme]/[node-fetch]/lib/index.js:39:1[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mAdjustItem.module.css[0m[90m:[0m[93m3[0m[37m [0m
+[0m  [0m  [0m[90mgatsby-ecommerce-theme/src/components/AdjustItem/AdjustItem.module.css:3:8[0m
+[0m  [0m
+[0m
+

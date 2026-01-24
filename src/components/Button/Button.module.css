@@ -1,11 +1,11 @@
 .button {
     display: inline-block;
     font-family: var(--standard-font);
-    font-size: 14px;
-    line-height: 17px;
-    padding: 16px 20px 15px;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 18px 32px;
     margin: 0;
-    min-width: 150px;
+    min-width: 180px;
     height: auto !important;
     transition: all 0.3s ease-in-out;
     text-transform: initial;
@@ -13,21 +13,24 @@
     outline: none;
     cursor: pointer;
     position: relative;
+    font-weight: 600;
 }
 
 .primary {
-    border: 2px solid var(--standard-black);
-    color: var(--standard-white);
-    background-color: var(--standard-black);;
+    border: 2px solid var(--standard-brand);
+    color: var(--standard-black);
+    background-color: var(--standard-brand);
     text-transform: uppercase;
-    font-weight: 500;
-    
+    font-weight: 700;
+    letter-spacing: 0.05em;
 }
 
 @media (hover: hover) {
     .primary:hover {
-        border: 2px solid var(--standard-dark-grey);
-        background-color: var(--standard-dark-grey);
+        background-color: #E0B000;
+        border-color: #E0B000;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(245, 197, 24, 0.3);
     }
 }
 
@@ -54,7 +57,7 @@
 
 @media (hover: hover) {
     .secondary.alternate:hover {
-        background-color: rgba(255,255,255,0.05);
+        background-color: rgba(255, 255, 255, 0.05);
     }
 }
 
@@ -105,7 +108,8 @@
     min-width: 100%;
 }
 
-.primary.disabled, .primary[disabled] {
+.primary.disabled,
+.primary[disabled] {
     cursor: default;
     border: 2px solid var(--standard-grey);
     background-color: var(--standard-grey);
@@ -113,14 +117,16 @@
     pointer-events: none;
 }
 
-.secondary.disabled, .secondary[disabled] {
+.secondary.disabled,
+.secondary[disabled] {
     cursor: default;
     border: 2px solid var(--grey-disabled);
     color: var(--grey-one);
     pointer-events: none;
 }
 
-.tertiary.disabled, .tertiary[disabled] {
+.tertiary.disabled,
+.tertiary[disabled] {
     cursor: default;
     border: 2px solid var(--gray-alt);
     color: var(--gray-alt);

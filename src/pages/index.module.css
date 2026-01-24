@@ -1,9 +1,13 @@
-.root {
-
+.quoteContainer {
+    background: linear-gradient(135deg, rgba(245, 197, 24, 0.08) 0%, rgba(245, 197, 24, 0.12) 100%);
+    padding: 30px 0;
+    margin: 0;
 }
 
 .collectionContainer {
-    margin-top: 8px;
+    margin-top: 0;
+    padding: 30px 0;
+    position: relative;
 }
 
 .promotionContainer {
@@ -34,7 +38,7 @@
     color: var(--standard-gold);
 }
 
-.contentTitle{
+.contentTitle {
     text-align: center;
     font-weight: normal;
     font-size: 42px;
@@ -61,6 +65,9 @@
 
 .ctaCustomButton {
     margin-top: 50px;
+    min-width: 200px;
+    font-size: 18px;
+    padding: 20px 40px;
 }
 
 .linkContainers a {
@@ -79,15 +86,15 @@
 }
 
 .blogsContainer {
-    margin-top: 96px;
+    margin-top: 30px;
 }
 
 .sustainableContainer {
-    margin: 96px 40px 0px 40px;
+    margin: 30px 0px 0px 0px;
 }
 
 .socialContainer {
-    margin-top: 64px;
+    margin-top: 30px;
 }
 
 .socialContentGrid {

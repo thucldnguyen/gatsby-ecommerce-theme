@@ -25,32 +25,6 @@ const BlogPage = (props) => {
           header={'HEALTHY FOOD'}
         />
 
-        <div className={styles.navContainer}>
-          <ThemeLink
-            onClick={() => navigate('/blog')}
-            to={'/blog'}
-          >
-            All Posts
-          </ThemeLink>
-          <ThemeLink
-            onClick={() => navigate('/blog')}
-            to={'/blog'}
-          >
-            Macadamia
-          </ThemeLink>
-          <ThemeLink
-            onClick={() => navigate('/blog')}
-            to={'/blog'}
-          >
-            Dầu Macadamia
-          </ThemeLink>
-          <ThemeLink
-            onClick={() => navigate('/blog')}
-            to={'/blog'}
-          >
-            Hạt mix
-          </ThemeLink>
-        </div>
 
         {/* Blog Grid */}
         <div className={styles.blogsContainer}>

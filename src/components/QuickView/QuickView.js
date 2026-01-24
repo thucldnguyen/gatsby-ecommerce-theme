@@ -16,12 +16,11 @@ const QuickView = (props) => {
 
   const ctxAddItemNotification = useContext(AddItemNotificationContext);
   const showNotification = ctxAddItemNotification.showNotification;
-  
+
   const [activeSize, setActiveSize] = useState(sampleProduct.sizeOptions[0]);
 
   const handleAddToBag = () => {
     close();
-    showNotification();
   };
 
   return (
@@ -40,7 +39,7 @@ const QuickView = (props) => {
           </div>
         </div>
 
-        
+
 
         <div className={styles.sectionContainer}>
           <SizeList

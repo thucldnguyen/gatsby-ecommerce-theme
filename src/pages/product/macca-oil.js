@@ -13,12 +13,18 @@ import { navigate } from 'gatsby';
 import { generateMockProductData } from '../../helpers/mock';
 
 import AddItemNotificationContext from '../../context/AddItemNotificationProvider';
+import { CartContext } from '../../context/CartProvider';
 
 const ProductPage = (props) => {
   const ctxAddItemNotification = useContext(AddItemNotificationContext);
   const showNotification = ctxAddItemNotification.showNotification;
+  const { addToCart } = useContext(CartContext);
   const sampleProduct = generateMockProductData(1, 'oil')[0];
-  const [qty, setQty] = useState(0);
+  const [qty, setQty] = useState(1);
+
+  const handleAddToCart = () => {
+    addToCart(sampleProduct, qty);
+  };
 
   return (
     <Layout>
@@ -50,11 +56,11 @@ const ProductPage = (props) => {
               <div className={styles.actionContainer}>
                 <div className={styles.addToButtonContainer}>
                   <Button
-                    onClick={() => navigate(`/support?product=oil`)}
+                    onClick={handleAddToCart}
                     fullWidth
                     level={'primary'}
                   >
-                    Mua ngay
+                    Thêm vào giỏ
                   </Button>
                 </div>
               </div>
@@ -95,7 +101,7 @@ const ProductPage = (props) => {
                   cũng trồng được hạt mắc ca. Do điều kiện thổ nhưỡng và khí hậu thuận lợi
                   nên hạt mắc ca Lâm Hà - Lâm Đồng đạt chất lượng thơm béo khá cao sánh ngang với bạn bè quốc tế.
                   Hình ảnh bên dưới là hạt mắc ca được thu hoạch tại cơ sở Rio
-                  Macca Lâm Hà - Lâm Đồng. 
+                  Macca Lâm Hà - Lâm Đồng.
                 </p>
                 <br />
 

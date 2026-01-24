@@ -20,25 +20,25 @@ const SamplePage = (props) => {
               <div className={styles.content}>
                 <p className={styles.excerpt}>
                   Cơ cở sản xuất của Rio Macca đạt đủ các tiêu chuẩn về vệ sinh
-                  an toàn thực phẩm 
+                  an toàn thực phẩm
                 </p>
                 <p className={styles.blogParagraph}>
                   Được cơ quan chức năng có thẩm quyền cấp giấy phép kinh doanh vào năm
                   2021, đến nay Rio Macca đã có 3 năm kinh nghiệm sản xuất hạt macca
-                  sấy. 
+                  sấy.
                 </p>
                 <p className={styles.blogParagraph}>
                   Cơ sở của Rio Macca đạt chất lượng vệ sinh an toàn thực phẩm cao nhất.
-                  Hạt macca luôn được sàn lọc cẩn thận về size lẫn độ ẩm và nguồn gốc. 
+                  Hạt macca luôn được sàn lọc cẩn thận về size lẫn độ ẩm và nguồn gốc.
                 </p>
-                
+
               </div>
               <div className={styles.imagesContainer}>
                 <div className={styles.imageContainer}>
-                  <img src={'/coso5.jpeg'} alt={'sample1'} />
+                  <img src={'/coso4.jpeg'} alt={'sample1'} />
                 </div>
                 <div className={styles.imageContainer}>
-                  <img src={'/riomacca2.jpeg'} alt={'sample2'} />
+                  <img src={'/riomacca.jpeg'} alt={'sample2'} />
                 </div>
               </div>
             </Blog>

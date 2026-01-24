@@ -28,6 +28,7 @@
   --small: 600px;
   --medium: 1000px;
   --large: 1300px;
+  --narrow: 800px;
   --standard-header: 'Montserrat';
   --standard-font: 'Inter', sans-serif;
   --brand-font: 'Yeseva One', cursive;
@@ -47,7 +48,8 @@
   --bg-dark: #383634;
   --bg-close-icon: #E9E7E3;
   --bg-light-gray: #e5e5e5;
-  --standard-gold: #B59F66;
+  --standard-gold: #F5C518;
+  --standard-brand: #F5C518;
   --sale: #902F15;
   --error: #9A3515;
 
@@ -106,55 +108,55 @@ body {
 h1,
 .h1 {
   font-family: var(--standard-header);
-  font-size: 72px;
-  line-height: 83px;
+  font-size: 32px;
+  line-height: 1.1;
   margin: 0;
 }
 
 h2,
 .h2 {
   font-family: var(--standard-header);
-  font-size: 52px;
-  line-height: 60px;
+  font-size: 26px;
+  line-height: 1.2;
   margin: 0;
 }
 
 h3,
 .h3 {
   font-family: var(--standard-header);
-  font-size: 42px;
-  line-height: 42px;
+  font-size: 20px;
+  line-height: 1.2;
   margin: 0;
 }
 
 h4,
 .h4 {
   font-family: var(--standard-header);
-  font-size: 32px;
-  line-height: 37px;
+  font-size: 18px;
+  line-height: 1.3;
   margin: 0;
 }
 
 h5,
 .h5 {
   font-family: var(--standard-header);
-  font-size: 30px;
-  line-height: 35px;
+  font-size: 20px;
+  line-height: 1.4;
   margin: 0;
 }
 
 h6,
 .h6 {
   font-family: var(--standard-header);
-  font-size: 25px;
-  line-height: 29px;
+  font-size: 18px;
+  line-height: 1.4;
   margin: 0;
 }
 
 .quote {
   font-family: var(--standard-header);
-  font-size: 42px;
-  line-height: 49px;
+  font-size: 20px;
+  line-height: 1.3;
   margin: 0;
 }
 

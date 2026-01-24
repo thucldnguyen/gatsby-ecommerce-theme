@@ -16,10 +16,16 @@ const ProductCard = (props) => {
     meta,
     showQuickView,
     height = 580,
+    productCode,
+    link,
   } = props;
 
   const handleRouteToProduct = () => {
-    navigate('/product/sample');
+    if (link) {
+      navigate(link);
+      return;
+    }
+    navigate(`/product/${productCode || 'sample'}`);
   };
 
   const handleQuickView = (e) => {
@@ -54,9 +60,8 @@ const ProductCard = (props) => {
         >
           <Icon symbol={'heart'} />
           <div
-            className={`${styles.heartFillContainer} ${
-              isWishlist === true ? styles.show : styles.hide
-            }`}
+            className={`${styles.heartFillContainer} ${isWishlist === true ? styles.show : styles.hide
+              }`}
           >
             <Icon symbol={'heartFill'}></Icon>
           </div>

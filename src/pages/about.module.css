@@ -3,7 +3,7 @@
 }
 
 /* special case with the image */
-.root > div {
+.root>div {
     background-position: right;
 }
 
@@ -19,35 +19,32 @@
     overflow-x: auto;
     padding-left: 32px;
     padding-right: 32px;
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
 }
 
-.navContainer > div:first-child {
+.navContainer>div:first-child {
     margin-left: auto;
-}
-
-.navContainer > div:last-child {
-    margin-right: auto;
 }
 
 .detailContainer {
-    margin-left: auto;
-    max-width: 800px;
-    margin-top: 164px;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 
-.detailContainer p{
+.detailContainer p {
     font-family: var(--standard-header);
-    font-weight: normal;
-    font-size: 42px;
-    line-height: 50px;
+    font-size: 32px;
+    line-height: 1.4;
+    text-align: center;
 }
 
 .imageContainer {
-    padding-bottom: 200px;
-    margin: 80px 48px 0px 48px;
-    min-height: 600px;
+    margin: 40px auto;
+    max-width: 1200px;
+    min-height: 400px;
 }
 
 .imageContainer img {
@@ -56,16 +53,15 @@
 }
 
 .content {
-    display: grid;
-    grid-template-columns: 2fr 3fr;
-    gap: 80px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-bottom: 80px;
 }
 
-.content h3{
-    font-weight: normal;
-    font-size: 52px;
-    line-height: 62px;
-    margin-right: 40px;
+.content h3 {
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 
 .content p {
@@ -77,8 +73,9 @@
 
 .content img {
     object-fit: cover;
-    width: 630px;
-    height: 750px;
+    width: 100%;
+    height: auto;
+    max-height: 600px;
 }
 
 .content ol {
@@ -88,9 +85,9 @@
 
 .content ol li {
     font-family: var(--standard-header);
-    font-weight: normal;
-    font-size: 32px;
-    line-height: 52px;
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 16px;
 }
 
 .content ul {
@@ -107,7 +104,7 @@
         width: 100%;
     }
 
-    .content h3{
+    .content h3 {
         margin-right: 24px;
     }
 }
@@ -118,7 +115,7 @@
         gap: 24px 0px;
     }
 
-    .content h3{ 
+    .content h3 {
         font-size: 32px;
         line-height: 38px;
     }
@@ -128,7 +125,7 @@
         line-height: 42px;
     }
 
-    .detailContainer p{
+    .detailContainer p {
         font-size: 22px;
         line-height: 28px;
     }

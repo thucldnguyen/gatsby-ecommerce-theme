@@ -45,7 +45,7 @@ const AboutPage = (props) => {
           </ThemeLink>
         </div>
 
-        <Container size={'large'} spacing={'min'}>
+        <Container size={'narrow'}>
           <div className={styles.detailContainer} ref={historyRef}>
             <p>
               Được thành lập từ 2021, Rio Macca hay Rio Farm là thương hiệu nông
@@ -53,8 +53,6 @@ const AboutPage = (props) => {
               cho người tiêu dùng Việt Nam những sản phẩm nông sản chất lượng
               cao và thái độ phục vụ chu đáo.
             </p>
-            <br />
-            <br />
           </div>
         </Container>
 
@@ -62,7 +60,7 @@ const AboutPage = (props) => {
           <img alt={'shirt brand'} src={'/coso2.jpeg'}></img>
         </div>
 
-        <Container size={'large'} spacing={'min'}>
+        <Container size={'narrow'}>
           <div className={styles.content}>
             <h3>Giá trị cốt lõi</h3>
             <div ref={valuesRef}>
@@ -101,3 +99,5 @@ const AboutPage = (props) => {
 };
 
 export default AboutPage;
+
+export const Head = () => <title>Về Rio Macca | Thương hiệu uy tín từ 2021</title>;

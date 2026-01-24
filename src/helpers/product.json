@@ -1,6 +1,6 @@
 [
   {
-    "productCode": "MJUM8066-GYDZ",
+    "productCode": "macca",
     "name": "Hạt macadamia sấy cao cấp",
     "vendor": "Rio Farm",
     "price": "120000",
@@ -26,7 +26,7 @@
       },
       {
         "image": "/products/macca3.jpg",
-        "alt": "pdp description 3"
+        "alt": "pdp description 2"
       },
       {
         "image": "/products/macca4.jpg",
@@ -36,7 +36,7 @@
     "description": "Hạt macadamia do cơ sở Rio Macca sản xuất có nguồn gốc tại chỗ, sấy và đóng gói ở Lâm Hà, Lâm Đồng."
   },
   {
-    "productCode": "MJUM8066-GYDZ",
+    "productCode": "macca-oil",
     "name": "Dầu Macca",
     "vendor": "Rio Farm",
     "price": "120000",
@@ -60,7 +60,7 @@
     "description": "Hạt macadamia do cơ sở Rio Macca sản xuất có nguồn gốc tại chỗ, sấy và đóng gói ở Lâm Hà, Lâm Đồng."
   },
   {
-    "productCode": "MJUM8066-GYDZ",
+    "productCode": "mix-nuts",
     "name": "Hạt mix",
     "vendor": "Rio Farm",
     "price": "120000",
@@ -84,7 +84,7 @@
     "description": "Hạt macadamia do cơ sở Rio Macca sản xuất có nguồn gốc tại chỗ, sấy và đóng gói ở Lâm Hà, Lâm Đồng."
   },
   {
-    "productCode": "MJUM8066-GYDZ",
+    "productCode": "sample",
     "name": "Sample Product",
     "vendor": "Rio Farm",
     "price": "120000",

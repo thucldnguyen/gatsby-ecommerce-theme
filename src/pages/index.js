@@ -32,8 +32,6 @@ const IndexPage = () => {
         image={'/macca_farm.jpg'}
         title={'Rio Farm'}
         subtitle={'Nông sản sạch'}
-      // ctaText={'Mua Ngay'}
-      // ctaAction={goToShop}
       />
       {/* Message Container */}
       {/* <div className={styles.messageContainer}>
@@ -41,15 +39,19 @@ const IndexPage = () => {
           <span className={styles.gold}>Rio Macca</span> Lâm Hà - Lâm Đồng
         </p>
       </div> */}
-      <Quote
-        bgColor={'var(--standard-light-grey)'}
-        title={'Về Chúng Tôi'}
-        quote={
-          '“Rio Macca là doanh nghiệp cung cấp hạt macadamia sấy hàng đầu Lâm Hà - Lâm Đồng.”'
-        }
-      />
+      <div className={styles.quoteContainer}>
+        <Container size={'narrow'}>
+          <Quote
+            bgColor={'transparent'}
+            title={'Về Chúng Tôi'}
+            quote={
+              '“Rio Macca là doanh nghiệp cung cấp hạt macadamia sấy hàng đầu Lâm Hà - Lâm Đồng.”'
+            }
+          />
+        </Container>
+      </div>
       <div className={styles.collectionContainer}>
-        <Container size={'large'}>
+        <Container>
           <Title name={'Sản Phẩm'} />
           <ProductCollectionGrid />
         </Container>
@@ -57,7 +59,6 @@ const IndexPage = () => {
       {/* New Arrivals
       <div className={styles.newArrivalsContainer}>
         <Container>
-          <Title name={'New Arrivals'} link={'/shop'} textLink={'view all'} />
           <ProductCardGrid
             spacing={true}
             showSlider
@@ -92,11 +93,11 @@ const IndexPage = () => {
       </div> */}
       {/* Blog Grid */}
       <div className={styles.blogsContainer}>
-        <Container size={'large'}>
+        <Container>
           <Title name={'Blog Rio Macca'} subtitle={'Những bài viết mới nhất về Rio Macca'} />
           <BlogPreviewGrid data={blogData} />
         </Container>
-      </div> 
+      </div>
       {/* Promotion */}
       <div className={styles.sustainableContainer}>
         <Hero
@@ -110,23 +111,29 @@ const IndexPage = () => {
           ctaStyle={styles.ctaCustomButton}
           ctaAction={goToShop}
         />
-      </div> 
+      </div>
       {/* Social Media */}
       <div className={styles.socialContainer}>
-        <Title
-          name={'Rio Macca'}
-          subtitle={'Hãy tag chúng tôi trên social media: @riofarm'}
-        />
-        <div className={styles.socialContentGrid}>
-          <img src={`/social/coso2.jpeg`} alt={'social media 1'} />
-          <img src={`/social/coso1.jpeg`} alt={'social media 2'} />
-          <img src={`/social/rio_banner.jpg`} alt={'social media 3'} />
-          <img src={`/social/rio_banner2.jpg`} alt={'social media 4'} />
-        </div>
-      </div> 
-      <AttributeGrid /> 
+        <Container>
+          <Title
+            name={'Rio Macca'}
+            subtitle={'Hãy tag chúng tôi trên social media: @riofarm'}
+          />
+          <div className={styles.socialContentGrid}>
+            <img src={`/social/coso2.jpeg`} alt={'social media 1'} />
+            <img src={`/social/coso1.jpeg`} alt={'social media 2'} />
+            <img src={`/social/rio_banner.jpg`} alt={'social media 3'} />
+            <img src={`/social/rio_banner2.jpg`} alt={'social media 4'} />
+          </div>
+        </Container>
+      </div>
+      <Container>
+        <AttributeGrid />
+      </Container>
     </Layout>
   );
 };
 
 export default IndexPage;
+
+export const Head = () => <title>Rio Farm Lâm Hà | Nông sản sạch</title>;

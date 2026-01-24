@@ -3,7 +3,6 @@ import { Link, navigate } from 'gatsby';
 
 import { isAuth } from '../../helpers/general';
 
-import AddNotification from '../AddNotification';
 import Brand from '../Brand';
 import Container from '../Container';
 import Config from '../../config.json';
@@ -15,7 +14,10 @@ import MiniCart from '../MiniCart';
 import MobileNavigation from '../MobileNavigation';
 import * as styles from './Header.module.css';
 
+import { CartContext } from '../../context/CartProvider';
+
 const Header = (prop) => {
+  const { cartCount } = React.useContext(CartContext);
   const [showMiniCart, setShowMiniCart] = useState(false);
   const [mobileMenu, setMobileMenu] = useState(false);
   const [showMenu, setShowMenu] = useState(true);
@@ -119,45 +121,19 @@ const Header = (prop) => {
           <Brand />
 
           <div className={styles.actionContainers}>
-            {/* <button
-              aria-label="Search"
-              className={`${styles.iconButton} ${styles.iconContainer}`}
-              onClick={() => {
-                setShowSearch(!showSearch);
-              }}
-            >
-              <Icon symbol={'search'}></Icon>
-            </button>
-            <Link
-              aria-label="Favorites"
-              href="/account/favorites"
-              className={`${styles.iconContainer} ${styles.hideOnMobile}`}
-            >
-              <Icon symbol={'heart'}></Icon>
-            </Link>
-            <Link
-              aria-label="Orders"
-              href={isAuth() ? '/login' : '/account/orders/'}
-              className={`${styles.iconContainer} ${styles.hideOnMobile}`}
-            >
-              <Icon symbol={'user'}></Icon>
-            </Link> */}
             <button
               aria-label="Cart"
               className={`${styles.iconButton} ${styles.iconContainer} ${styles.bagIconContainer}`}
               onClick={() => {
-                // setShowMiniCart(true);
-                // setMobileMenu(false);
+                setShowMiniCart(true);
+                setMobileMenu(false);
               }}
             >
               <Icon symbol={'bag'}></Icon>
               <div className={styles.bagNotification}>
-                <span>1</span>
+                <span>{cartCount}</span>
               </div>
             </button>
-            <div className={styles.notificationContainer}>
-              <AddNotification openCart={() => setShowMiniCart(true)} />
-            </div>
           </div>
         </div>
 
