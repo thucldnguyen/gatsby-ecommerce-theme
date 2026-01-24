@@ -8,9 +8,24 @@ import * as styles from './Layout.module.css';
 // CSS not modular here to provide global styles
 import './Globals.css';
 
+import { Helmet } from 'react-helmet';
+
 const Layout = ({ children, disablePaddingBottom = false }) => {
   return (
     <>
+      <Helmet>
+        <link
+          rel="stylesheet"
+          type="text/css"
+          href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
+        />
+        <link
+          rel="stylesheet"
+          type="text/css"
+          charSet="UTF-8"
+          href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
+        />
+      </Helmet>
       <Header />
       <main
         className={`${styles.main} ${disablePaddingBottom === true ? styles.disablePaddingBottom : ''
@@ -22,22 +37,6 @@ const Layout = ({ children, disablePaddingBottom = false }) => {
     </>
   );
 };
-
-export const Head = () => (
-  <>
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      charSet="UTF-8"
-      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
-    />
-  </>
-);
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
