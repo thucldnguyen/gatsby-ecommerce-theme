@@ -24,7 +24,7 @@ const SamplePage = (props) => {
                 </p>
                 <p className={styles.blogParagraph}>
                   Được cơ quan chức năng có thẩm quyền cấp giấy phép kinh doanh vào năm
-                  2021, đến nay Rio Macca đã có 3 năm kinh nghiệm sản xuất hạt macca
+                  2021, đến nay Rio Macca đã có 5 năm kinh nghiệm sản xuất hạt macca
                   sấy.
                 </p>
                 <p className={styles.blogParagraph}>
