@@ -5,11 +5,6 @@ module.exports = {
     description: `Rio Macca - Hạt macadamia sấy hàng đầu Lâm Hà, Lâm Đồng. Nông sản sạch, an toàn thực phẩm.`,
   },
   plugins: [
-    // Image optimization (critical for performance)
-    'gatsby-plugin-image',
-    'gatsby-plugin-sharp',
-    'gatsby-transformer-sharp',
-
     // SEO & sitemap
     {
       resolve: `gatsby-plugin-sitemap`,
