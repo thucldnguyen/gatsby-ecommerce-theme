@@ -10,14 +10,29 @@ const Hero = (props) => {
     ctaText,
     ctaAction,
     image,
+    imageAlt,
     maxWidth,
     ctaStyle,
     ctaLink,
     ctaTo,
     header,
+    priority = false, // Set true for above-the-fold LCP images
   } = props;
+
   return (
-    <div className={styles.root} style={{ backgroundImage: `url(${image})` }}>
+    <div className={styles.root}>
+      {/* Background image as <img> for better browser optimization and LCP */}
+      {image && (
+        <img
+          src={image}
+          alt={imageAlt || ''}
+          className={styles.bgImage}
+          loading={priority ? 'eager' : 'lazy'}
+          fetchpriority={priority ? 'high' : 'auto'}
+          decoding={priority ? 'sync' : 'async'}
+          aria-hidden="true"
+        />
+      )}
       <div className={styles.content} style={{ maxWidth: maxWidth }}>
         {header && <span className={styles.header}>{header}</span>}
         {title && <h2 className={styles.title}>{title}</h2>}

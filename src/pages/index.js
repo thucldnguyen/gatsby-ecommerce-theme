@@ -33,8 +33,10 @@ const IndexPage = () => {
       <Hero
         maxWidth={'500px'}
         image={'/macca_farm.jpg'}
+        imageAlt={'Vườn macadamia Rio Farm Lâm Hà'}
         title={'Rio Farm'}
         subtitle={'Nông sản sạch'}
+        priority={true} /* LCP image — load eagerly */
       />
       {/* Message Container */}
       {/* <div className={styles.messageContainer}>
@@ -110,6 +112,7 @@ const IndexPage = () => {
       <div className={styles.sustainableContainer}>
         <Hero
           image={'/antoanthucpham.webp'}
+          imageAlt={'An toàn thực phẩm Rio Macca Lâm Hà'}
           title={'Nói không với hàng kém vệ sinh'}
           subtitle={
             'Vệ sinh an toàn thực phẩm là ưu tiên hàng đầu của Rio Macca Lâm Hà.'
@@ -118,6 +121,7 @@ const IndexPage = () => {
           maxWidth={'660px'}
           ctaStyle={styles.ctaCustomButton}
           ctaAction={goToShop}
+          priority={false} /* Below the fold — load lazily */
         />
       </div>
       {/* Social Media */}
@@ -128,10 +132,10 @@ const IndexPage = () => {
             subtitle={'Hãy tag chúng tôi trên social media: @riofarm'}
           />
           <div className={styles.socialContentGrid}>
-            <img src={`/social/coso2.jpeg`} alt={'social media 1'} />
-            <img src={`/social/coso1.jpeg`} alt={'social media 2'} />
-            <img src={`/social/rio_banner.jpg`} alt={'social media 3'} />
-            <img src={`/social/rio_banner2.jpg`} alt={'social media 4'} />
+            <img src={`/social/coso2.jpeg`} alt={'Cơ sở Rio Macca'} loading="lazy" />
+            <img src={`/social/coso1.jpeg`} alt={'Vườn macadamia Rio'} loading="lazy" />
+            <img src={`/social/rio_banner.jpg`} alt={'Rio Macca Lâm Hà'} loading="lazy" />
+            <img src={`/social/rio_banner2.jpg`} alt={'Hạt macca sấy Rio'} loading="lazy" />
           </div>
         </Container>
       </div>
